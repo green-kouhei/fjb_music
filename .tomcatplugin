@@ -8,5 +8,5 @@
     <updateXml>true</updateXml>
     <warLocation></warLocation>
     <extraInfo></extraInfo>
-    <webPath>/music</webPath>
+    <webPath>/music3</webPath>
 </tomcatProjectProperties>
