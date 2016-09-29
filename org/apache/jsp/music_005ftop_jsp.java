@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class music_005ftop_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -51,44 +51,23 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
 
       out.write("\r\n");
+      out.write("<!DOCTYPE html><html>\r\n");
+      out.write("<head>\r\n");
+      out.write("<link rel = \"stylesheet\"href = \"music_top.css\">\r\n");
+      out.write("</head>\r\n");
+      out.write("<body bgcolor=\"yellow\";>\r\n");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "test001.jsp", out, false);
       out.write("\r\n");
-      out.write("<header >\r\n");
-      out.write("<h1 id = \"head_h1\">FJB Music</h1>\r\n");
-      out.write("</header>\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"nav\">\r\n");
-      out.write("\r\n");
-      out.write("<ul class=\"nl clearFix\">\r\n");
-      out.write("<link rel = \"stylesheet\"href = \"test01.css\">\r\n");
-      out.write("<li><a href=\"#\">メニュー項目1<span class=\"en\"><br>@@@</span></a></li>\r\n");
-      out.write("<li><a href=\"#\">メニュー項目2 <span class=\"en\"><br>ランキング</span></a></li>\r\n");
-      out.write("<!-- ロゴ画像 (cd pic add)-->\r\n");
-      out.write("<li><a href=\"#\"><img src = \"pic/cd.jpg\"><span class=\"en\">Top</span></a></li>\r\n");
-      out.write("<li><a href=\"#\">メニュー項目4 <span class=\"en\"><br>@@@</span></a></li>\r\n");
-      out.write("<li><a href=\"#\">メニュー項目5 <span class=\"en\"><br>Myページ</span></a></li>\r\n");
-      out.write("</ul>\r\n");
-      out.write("\r\n");
+      out.write("<div >\r\n");
+      out.write("aaaaaaa\r\n");
       out.write("</div>\r\n");
       out.write("\r\n");
+      out.write("<footer>\r\n");
+      out.write("Copyright FJB Music , all rights reserved.\r\n");
+      out.write("</footer>\r\n");
       out.write("\r\n");
-      out.write("\r\n");
-      out.write("<div>\r\n");
-      out.write("<div  id = \"head_login\">\r\n");
-      out.write("<input type = \"text\" value = \"検索\">\r\n");
-      out.write("<input type = \"submit\" value = \"検索\">\r\n");
-      out.write("</div>\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- グローバルナビゲーション -->\r\n");
-      out.write("<div id = \"gnavi\" >\r\n");
-      out.write("<table>\r\n");
-      out.write("\t<td class = \"gnavi_td\">○○○</td>\r\n");
-      out.write("\t<td class = \"gnavi_td\">○○○</td>\r\n");
-      out.write("\t<td class = \"gnavi_td\">○○○</td>\r\n");
-      out.write("\t<td class = \"gnavi_td\">○○○</td>\r\n");
-      out.write("\t<td class = \"gnavi_td\">○○○</td>\r\n");
-      out.write("</table>\r\n");
-      out.write("</div>");
+      out.write("</body>\r\n");
+      out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

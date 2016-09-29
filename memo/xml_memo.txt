@@ -1,0 +1,10 @@
+<Context path="/fjb_music" reloadable="true" docBase="I:\Eclipse2016ptype\fjb_music" workDir="I:\Eclipse2016ptype\fjb_music" />
+
+
+<img id = "logo" src = "img/logo.jpg">
+
+<!-- コメント -->
+
+//画面サイズに合わせて高さを指定
+height: 100%;
+with: 80%;
