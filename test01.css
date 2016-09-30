@@ -10,7 +10,7 @@ font-size: 80%;
 
 /* --- メニューエリア --- */
 div.nav ul.nl {
-width: 80%; /* メニューの幅 */
+width: 90%; /* メニューの幅 */
 margin: 0 auto; /* センターに配置 */
 padding: 0;
 background: #4e83b3 url(pic/hor_menu6_off.gif) repeat-x top; /* メニューの背景 */
@@ -22,7 +22,7 @@ text-align: center;
 
 /* --- メニュー項目 --- */
 div.nav ul.nl li {
-width: 20%; /* 項目の幅 */
+width: 14.2%; /* 項目の幅 */
 float: left;
 }
 
