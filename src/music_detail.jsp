@@ -1,7 +1,7 @@
 <%@page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html><html>
 <head>
-<link rel = "stylesheet"href = "music_detail.css">
+<link rel = "stylesheet"href = "css/music_detail.css">
 </head>
 <body>
 <jsp:include page="test001.jsp"></jsp:include>

@@ -14,7 +14,7 @@
 <div class="nav">
 
 <ul class="nl clearFix">
-<link rel = "stylesheet"href = "test01.css">
+<link rel = "stylesheet"href = "css/test01.css">
 <li><a href="#">メニュー項目1<span class="en"><br>おすすめ</span></a></li>
 <li><a href="#">メニュー項目2 <span class="en"><br>ランキング</span></a></li>
 <li><a href="#">メニュー項目3 <span class="en"><br>ジャンル</span></a></li>
