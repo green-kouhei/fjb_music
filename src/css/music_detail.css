@@ -1,0 +1,16 @@
+#cd_img{
+	width: 50px;
+	float: left;
+}
+#mei{
+	font-size: 30px;
+}
+#sin{
+	font-size: 17px;
+}
+
+#cart_img{
+	width: 50px;
+	float: right;
+	margin-right: 50px;
+}
