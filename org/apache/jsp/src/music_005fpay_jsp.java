@@ -51,7 +51,6 @@ public final class music_005fpay_jsp extends org.apache.jasper.runtime.HttpJspBa
       _jspx_out = out;
 
       out.write("\r\n");
-<<<<<<< HEAD
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
@@ -77,27 +76,6 @@ public final class music_005fpay_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t\tvalue=\"ゲストで購入\">\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\t</form>\r\n");
-=======
-      out.write("<!DOCTYPE html><html>\r\n");
-      out.write("<head>\r\n");
-      out.write("<link rel = \"stylesheet\"href = \"css/music_pay.css\">\r\n");
-      out.write("</head>\r\n");
-      out.write("<body>\r\n");
-      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "test001.jsp", out, false);
-      out.write("\r\n");
-      out.write("<div id = \"main\">\r\n");
-      out.write("<h1 class = \"main_h1\">乳製品のこだわり</h1>\r\n");
-      out.write("<p>自分たちの手により育てた牛から搾った乳を牛乳などに商品化することで、自信をもって「本物」造りを進めています。</p>\r\n");
-      out.write("<!-- <img alt =\"\" src = \"img/bokujyou.jpg\" class = \"main_img\"> -->\r\n");
-      out.write("<h1>自然主義</h1>\r\n");
-      out.write("<p>加工の段階でも添加物などは一切使用しないなど、自然が生んだものはそれだけで美味しいという物をそのまま加工、製造しています。</p>\r\n");
-      out.write("<!-- <img alt =\"\" src = \"img/koujyou.jpg\" class = \"main_img\"> -->\r\n");
-      out.write("</div>\r\n");
-      out.write("<footer>\r\n");
-      out.write("Copyright 船橋あいす工房,all rights reserved.\r\n");
-      out.write("</footer>\r\n");
-      out.write("\r\n");
->>>>>>> d33750b43ef0b7f4f0c97be9018df37213d404de
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
