@@ -22,14 +22,6 @@
 
 	<!-- include -->
 
-
-	<!-- スライドショー
-	<div class="example">
-
-	<div class="box1">ボックス1</div>
-	<div class="box2">ボックス2</div>
-
-	 -->
 	<div class="example">
 		<jsp:include page="test001.jsp"></jsp:include>
 
