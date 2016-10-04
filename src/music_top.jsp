@@ -23,29 +23,80 @@
 	<!-- include -->
 	<jsp:include page="test001.jsp"></jsp:include>
 
-	<div class="A">
+	<div class="mainBox">
 
-		<!-- キャンペーン・おすすめ -->
-		<div class="box1" style="background-color: #AAEEDD">
-			<h1>
-				<center>今週のおすすめ！</center>
-			</h1>
+		<div class="A">
 
+			<!-- キャンペーン・おすすめ -->
+			<div class="boxa1">
+
+				<font color="#0000ff"><center>
+						<h1>最近のヘビロテ！</h1>
+					</center></font>
+
+
+			</div>
+
+			<!-- スライド -->
+			<div class="boxa2" align="center">
+				<ul class="bxslider">
+					<li><img src="pic/10feet.jpg"></li>
+					<li><img src="pic/ken_yokoyama.jpg"></li>
+					<li><img src="pic/mwam.jpg"></li>
+					<li><img src="pic/wanima.jpg"></li>
+					<li><img src="pic/xmas_eileen.jpg"></li>
+				</ul>
+
+			</div>
 		</div>
 
-		<!-- スライド -->
-		<div class="box2" align="center">
-			<ul class="bxslider">
-				<li><img src="pic/10feet.jpg"></li>
-				<li><img src="pic/ken_yokoyama.jpg"></li>
-				<li><img src="pic/mwam.jpg"></li>
-				<li><img src="pic/wanima.jpg"></li>
-				<li><img src="pic/xmas_eileen.jpg"></li>
-			</ul>
+		<div class="B">
+			<div class="boxb1">
+				<h3>
+					<left>今週の売り上げランキング！</left>
+				</h3>
+				<table>
+
+						<li class="no01">
+							<p class="item-name">
+								<a href="http://www.apple.com/jp/">Apple</a>
+							</p>
+							<p>macのディスプレイのコーティングはがれた。。。</p>
+						</li>
+
+						<li class="no02">
+							<p class="item-name">
+								<a href="http://www.apple.com/jp/">Apple</a>
+							</p>
+							<p>macのディスプレイのコーティングはがれた。。。</p>
+						</li>
+
+						<li class="no03">
+							<p class="item-name">
+								<a href="http://www.apple.com/jp/">Apple</a>
+							</p>
+							<p>macのディスプレイのコーティングはがれた。。。</p>
+						</li>
+
+						<li class="no04">
+							<p class="item-name">
+								<a href="http://www.apple.com/jp/">Apple</a>
+							</p>
+							<p>macのディスプレイのコーティングはがれた。。。</p>
+						</li>
+
+						<li class="no05 end">
+							<p class="item-name">
+								<a href="http://www.apple.com/jp/">Apple</a>
+							</p>
+							<p>macのディスプレイのコーティングはがれた。。。</p>
+						</li>
+
+				</table>
+
+			</div>
 
 		</div>
-
-
 
 
 
