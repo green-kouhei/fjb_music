@@ -21,11 +21,20 @@
 <body>
 
 	<!-- include -->
+	<jsp:include page="test001.jsp"></jsp:include>
 
-	<div class="example">
-		<jsp:include page="test001.jsp"></jsp:include>
+	<div class="A">
 
-		<div class="box1" align="center">
+		<!-- キャンペーン・おすすめ -->
+		<div class="box1" style="background-color: #AAEEDD">
+			<h1>
+				<center>今週のおすすめ！</center>
+			</h1>
+
+		</div>
+
+		<!-- スライド -->
+		<div class="box2" align="center">
 			<ul class="bxslider">
 				<li><img src="pic/10feet.jpg"></li>
 				<li><img src="pic/ken_yokoyama.jpg"></li>
@@ -37,13 +46,8 @@
 		</div>
 
 
-		<!-- キャンペーン・おすすめ -->
-		<div class="box2" style="background-color: #AAEEDD">
-			<h1>
-				<center>今週のおすすめ！</center>
-			</h1>
 
-		</div>
+
 
 		<footer> Copyright FJB Music , all rights reserved. </footer>
 	</div>

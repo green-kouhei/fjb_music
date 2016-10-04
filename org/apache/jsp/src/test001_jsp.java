@@ -85,15 +85,6 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("\r\n");
       out.write("<!-- グローバルナビゲーション -->\r\n");
-      out.write("<div id=\"gnavi\">\r\n");
-      out.write("\t<table>\r\n");
-      out.write("\t\t<td class=\"gnavi_td\">○○○</td>\r\n");
-      out.write("\t\t<td class=\"gnavi_td\">○○○</td>\r\n");
-      out.write("\t\t<td class=\"gnavi_td\">○○○</td>\r\n");
-      out.write("\t\t<td class=\"gnavi_td\">○○○</td>\r\n");
-      out.write("\t\t<td class=\"gnavi_td\">○○○</td>\r\n");
-      out.write("\t</table>\r\n");
-      out.write("</div>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

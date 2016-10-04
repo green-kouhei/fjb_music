@@ -33,12 +33,3 @@
 
 
 <!-- グローバルナビゲーション -->
-<div id="gnavi">
-	<table>
-		<td class="gnavi_td">○○○</td>
-		<td class="gnavi_td">○○○</td>
-		<td class="gnavi_td">○○○</td>
-		<td class="gnavi_td">○○○</td>
-		<td class="gnavi_td">○○○</td>
-	</table>
-</div>
