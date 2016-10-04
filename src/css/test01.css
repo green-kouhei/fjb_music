@@ -1,68 +1,95 @@
 
+/*サイト共通の背景色*/
+body {
+	background-color: yellow;
+	}
+
+/* --- ヘッドエリア --- */
+header {
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+div.head_search {
+
+}
+
+#head_login {
+	float: right;
+}
+
 /* --- ナビゲーションバー --- */
 div.nav {
-width: 100%; /* ナビゲーションの幅 */
-background: #4e83b3 url(pic/hor_menu6_off.gif) repeat-x top; /* ナビゲーションの背景 */
-border-top: 2px #84aed2 solid; /* 上境界線 */
-border-bottom: 2px #2c5170 solid; /* 下境界線 */
-font-size: 80%;
+	width: 100%; /* ナビゲーションの幅 */
+	background: #4e83b3 url(pic/hor_menu6_off.gif) repeat-x top;
+	/* ナビゲーションの背景 */
+	border-top: 2px #84aed2 solid; /* 上境界線 */
+	border-bottom: 2px #2c5170 solid; /* 下境界線 */
+	font-size: 80%;
 }
 
 /* --- メニューエリア --- */
 div.nav ul.nl {
-width: 90%; /* メニューの幅 */
-margin: 0 auto; /* センターに配置 */
-padding: 0;
-background: #4e83b3 url(pic/hor_menu6_off.gif) repeat-x top; /* メニューの背景 */
-border-left: 1px #2c5170 solid; /* メニューの左境界線 */
-border-right: 1px #84aed2 solid; /* メニューの右境界線 */
-list-style-type: none;
-text-align: center;
+	display: table;
+	table-layout: fixed;
+	text-align: center;
+	width: 90%; /* メニューの幅 */
+	margin: 0 auto; /* センターに配置 */
+	padding: 0;
+	background: #4e83b3 url(pic/hor_menu6_off.gif) repeat-x top;
+	/* メニューの背景 */
+	border-left: 1px #2c5170 solid; /* メニューの左境界線 */
+	border-right: 1px #84aed2 solid; /* メニューの右境界線 */
+	list-style-type: none;
+	text-align: center;
 }
 
 /* --- メニュー項目 --- */
 div.nav ul.nl li {
-width: 14%; /* 項目の幅 */
-float: left;
+	width: 20%; display : table-cell; /* 項目の幅 */
+	vertical-align: middle;
+	display: table-cell;
 }
-
 
 /* --- リンク --- */
 div.nav ul.nl li a {
-display: block;
-position: relative; /* IE6用 */
-padding: 7px 2px 4px; /* リンクエリアのパディング（上、左右、下） */
-border-left: 1px #84aed2 solid; /* リンクエリアの左境界線 */
-border-right: 1px #2c5170 solid; /* リンクエリアの右境界線 */
-text-decoration: none; /* テキストの下線（なし） */
-font-weight: bold; /* 文字の太さ（太字） */
-color: #ffffff; /* 文字色 */
-line-height: 100%; /* 行の高さ */
+	display: block;
+	position: relative; /* IE6用 */
+	padding: 7px 2px 4px; /* リンクエリアのパディング（上、左右、下） */
+	border-left: 1px #84aed2 solid; /* リンクエリアの左境界線 */
+	border-right: 1px #2c5170 solid; /* リンクエリアの右境界線 */
+	text-decoration: none; /* テキストの下線（なし） */
+	font-weight: bold; /* 文字の太さ（太字） */
+	color: #ffffff; /* 文字色 */
+	line-height: 100%; /* 行の高さ */
 }
-/* 英字部分 */
+/* --- 英字部分 --- */
 div.nav ul.nl li a span.en {
-display: block;
-margin-top: 2px; /* 英字部分の上マージン */
-font-size: 85%; /* 英字の文字サイズ */
-font-weight: normal; /* 文字の太さ（ノーマル） */
-color: #eee8aa; /* 英字の文字色 */
+	display: block;
+	margin-top: 2px; /* 英字部分の上マージン */
+	font-size: 85%; /* 英字の文字サイズ */
+	font-weight: normal; /* 文字の太さ（ノーマル） */
+	color: #eee8aa; /* 英字の文字色 */
 }
 /* --- ポイント時の設定 --- */
 div.nav ul.nl li a:hover {
-background: #5e91bd url(pic/hor_menu6_on.gif) repeat-x top; /* ポイント時の背景 */
+	background: #5e91bd url(pic/hor_menu6_on.gif) repeat-x top;
+	/* ポイント時の背景 */
 }
+
 div.nav ul.nl li a:hover span.en {
-color: #fde337; /* ポイント時の英字の文字色 */
+	color: #fde337; /* ポイント時の英字の文字色 */
 }
 
 /* --- clearfix --- */
 .clearFix:after {
-content: ".";
-display: block;
-height: 0;
-clear: both;
-visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
+
 .clearFix {
-min-height: 1px;
+	min-height: 1px;
 }

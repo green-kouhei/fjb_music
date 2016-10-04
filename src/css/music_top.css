@@ -1,0 +1,36 @@
+div.A { /* 親ボックス */
+width: 800px;
+height:800px;
+border: 2px solid #000000;
+text-align: center;
+margin: 5px auto;
+
+
+}
+div.box1 { /* ランク */
+background: #ff0000;
+border: 2px solid #000000;
+width: 20px;
+text-align: center;
+margin:20px left ;
+
+}
+
+div.box2 { /* スライド1 */
+border: 2px solid #000000;
+width: 300px;
+text-align: center;
+margin: 10px auto;
+
+}
+
+
+div.memo { /* メモ */
+background: #ffffff;
+width: 300px;
+padding: 10px;
+text-align: center;
+border: 1px solid #cccccc;
+margin: 10px auto;
+position: absolute;
+}
