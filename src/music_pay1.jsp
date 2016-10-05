@@ -10,14 +10,15 @@
 </header>
 
 <body bgcolor="yellow">
-	<form action="">
+<jsp:include page="test_pay001.jsp"></jsp:include>
+	<form action="music_pay2.jsp">
 		<div id="main">
 			<table>
 				<tr>
-					<td>ユーザーID<input type="text" name="氏名" size="12"></td>
+					<td>ユーザーID<input type="text" name="ユーザーID" size="12"></td>
 				</tr>
 				<tr>
-					<td>パスワード<input type="text" name="住所" size="12"></td>
+					<td>パスワード<input type="text" name="パスワード" size="12"></td>
 				</tr>
 			</table>
 			<input type="submit" value="ログイン"> <input type="submit"
