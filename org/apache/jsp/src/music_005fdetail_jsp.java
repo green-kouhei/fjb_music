@@ -63,6 +63,13 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("<span id= \"mei\" >商品名<span id = \"sin\">歌手</span></span>\r\n");
       out.write("<img alt=\"\" src=\"pic/cart.jpg\" id=\"cart_img\">\r\n");
       out.write("</div>\r\n");
+      out.write("<div id = \"mu\">\r\n");
+      out.write("<table id = \"music\">\r\n");
+      out.write("<tr><td>1.曲名\r\n");
+      out.write("<tr><td>2.曲名\r\n");
+      out.write("</table>\r\n");
+      out.write("<div id = \"shi\">\r\n");
+      out.write("<audio controls preload = \"auto\"></audio></div></div>\r\n");
       out.write("<footer>\r\n");
       out.write("Copyright 船橋あいす工房,all rights reserved.\r\n");
       out.write("</footer>\r\n");

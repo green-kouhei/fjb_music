@@ -1,16 +1,33 @@
+#main_detail{
+	margin-top: 10px;
+}
+
 #cd_img{
-	width: 50px;
+	width: 100px;
+	height: 100px;
 	float: left;
+	margin-left: 5px;
 }
 #mei{
 	font-size: 30px;
+	margin-left: 20px;
+	margin-right: auto;
 }
 #sin{
 	font-size: 17px;
+	margin-left: 20px;
 }
 
 #cart_img{
 	width: 50px;
 	float: right;
-	margin-right: 50px;
+	margin-right: 10px;
+}
+#music{
+	margin-left: 130px;
+}
+
+#shi{
+	float: left;
+
 }
