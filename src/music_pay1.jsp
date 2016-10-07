@@ -11,9 +11,9 @@
 
 <body bgcolor="yellow">
 <jsp:include page="test_pay001.jsp"></jsp:include>
+<div id="main">
 	<form action="music_pay2.jsp">
-		<div id="main">
-			<table>
+			<table id="tbl" border="1">
 				<tr>
 					<td>ユーザーID<input type="text" name="ユーザーID" size="12"></td>
 				</tr>
@@ -21,9 +21,12 @@
 					<td>パスワード<input type="text" name="パスワード" size="12"></td>
 				</tr>
 			</table>
-			<input type="submit" value="ログイン"> <input type="submit"
-				value="ゲストで購入">
-		</div>
+
+	<div id="btnbox">
+			<input id="btn" type="submit" value="ログイン"> <input id="btn" type="submit"
+				value="ゲストで購入"></div>
+
 	</form>
+	</div>
 </body>
 </html>

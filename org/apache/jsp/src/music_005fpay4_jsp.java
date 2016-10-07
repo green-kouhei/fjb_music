@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class music_005fpay1_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class music_005fpay4_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -60,27 +60,8 @@ public final class music_005fpay1_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<h1 id = \"head_h1\">FJB Music</h1>\r\n");
       out.write("\r\n");
       out.write("</header>\r\n");
-      out.write("\r\n");
       out.write("<body bgcolor=\"yellow\">\r\n");
-      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "test_pay001.jsp", out, false);
       out.write("\r\n");
-      out.write("<div id=\"main\">\r\n");
-      out.write("\t<form action=\"music_pay2.jsp\">\r\n");
-      out.write("\t\t\t<table id=\"tbl\" border=\"1\">\r\n");
-      out.write("\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t<td>ユーザーID<input type=\"text\" name=\"ユーザーID\" size=\"12\"></td>\r\n");
-      out.write("\t\t\t\t</tr>\r\n");
-      out.write("\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t<td>パスワード<input type=\"text\" name=\"パスワード\" size=\"12\"></td>\r\n");
-      out.write("\t\t\t\t</tr>\r\n");
-      out.write("\t\t\t</table>\r\n");
-      out.write("\r\n");
-      out.write("\t<div id=\"btnbox\">\r\n");
-      out.write("\t\t\t<input id=\"btn\" type=\"submit\" value=\"ログイン\"> <input id=\"btn\" type=\"submit\"\r\n");
-      out.write("\t\t\t\tvalue=\"ゲストで購入\"></div>\r\n");
-      out.write("\r\n");
-      out.write("\t</form>\r\n");
-      out.write("\t</div>\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
