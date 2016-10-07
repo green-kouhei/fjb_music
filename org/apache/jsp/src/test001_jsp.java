@@ -51,6 +51,11 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
 
       out.write("\r\n");
+      out.write("<!DOCTYPE html><html>\r\n");
+      out.write("<head>\r\n");
+      out.write("\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("\r\n");
       out.write("<header>\r\n");
       out.write("\r\n");
@@ -122,6 +127,10 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("\r\n");
       out.write("<!-- グローバルナビゲーション -->\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
