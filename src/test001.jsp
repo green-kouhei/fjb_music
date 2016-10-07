@@ -21,13 +21,50 @@
 <div class="nav">
 	<ul class="nl clearFix">
 		<link rel="stylesheet" href="css/test01.css">
-		<li><a href="#">メニュー項目1<span class="en"><br>おすすめ</span></a></li>
-		<li><a href="#">メニュー項目2 <span class="en"><br>ランキング</span></a></li>
-		<li><a href="#">メニュー項目3 <span class="en"><br>ジャンル</span></a></li>
-		<li><a href="#"><img src="pic/cd.jpg"><span class="en">Top</span></a></li>
-		<li><a href="#">メニュー項目4 <span class="en"><br>Myページ</span></a></li>
-		<li><a href="#">メニュー項目5 <span class="en"><br>カート</span></a></li>
-		<li><a href="#">メニュー項目6 <span class="en"><br>問い合わせ</span></a></li>
+		<ul id="dropmenu">
+  <li><a href="#">おすすめ</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">ランキング</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">ジャンル</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">トップ</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">マイページ</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">カート</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+  <li><a href="#">お問い合わせ</a>
+    <ul>
+      <li><a href="#">サブメニュー</a></li>
+      <li><a href="#">サブメニュー</a></li>
+    </ul>
+  </li>
+</ul>
 	</ul>
 </div>
 
