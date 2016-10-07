@@ -1,5 +1,5 @@
-
 @charset "utf-8";
+
 #mainBox { /* 親ボックス */
 	width: 800px;
 	margin: 0 auto;
@@ -29,15 +29,18 @@
 	margin: 10px center;
 }
 
-#B .boxb1 { /* スライド1 */
-	border: 2px solid #000000;
-
-	text-align: center;
-	margin: 10px center;
+/* 今週の売り上げ */
+dt.sample1:before {
+	counter-increment: sample;
+	content: counter(sample) "位　";
 }
+
+h3 {
+	counter-reset: sample;
+}
+
 #B .boxb2 { /* スライド1 */
 	border: 2px solid #000000;
-
 	text-align: center;
 	margin: 10px center;
 }
@@ -57,4 +60,13 @@
 	border: 2px solid #000000;
 	text-align: center;
 	margin: 10px auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: solid 1px;
+	padding: 0.5em;
 }
