@@ -23,28 +23,86 @@
 	<!-- include -->
 	<jsp:include page="test001.jsp"></jsp:include>
 
-	<div class="A">
+	<div class="mainBox">
 
-		<!-- キャンペーン・おすすめ -->
-		<div class="box1" style="background-color: #AAEEDD">
-			<h1>
-				<center>今週のおすすめ！</center>
-			</h1>
+		<div class="A">
 
+			<!-- キャンペーン・おすすめ -->
+			<div class="boxa1">
+
+				<font color="#0000ff"><center>
+						<h1>最近のヘビロテ！</h1>
+					</center></font>
+
+
+			</div>
+
+			<!-- スライド -->
+			<div class="boxa2" align="center">
+				<ul class="bxslider">
+					<li><img src="pic/10feet.jpg"></li>
+					<li><img src="pic/ken_yokoyama.jpg"></li>
+					<li><img src="pic/mwam.jpg"></li>
+					<li><img src="pic/wanima.jpg"></li>
+					<li><img src="pic/xmas_eileen.jpg"></li>
+				</ul>
+
+			</div>
 		</div>
 
-		<!-- スライド -->
-		<div class="box2" align="center">
-			<ul class="bxslider">
-				<li><img src="pic/10feet.jpg"></li>
-				<li><img src="pic/ken_yokoyama.jpg"></li>
-				<li><img src="pic/mwam.jpg"></li>
-				<li><img src="pic/wanima.jpg"></li>
-				<li><img src="pic/xmas_eileen.jpg"></li>
-			</ul>
+			<!-- ランキング -->
+			<div>
+				<table>
 
-		</div>
+					<h3>今週の売り上げランキング</h3>
+					<dl>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+					</dl>
 
+				</table>
+
+				<h3>今週の売り上げランキング2</h3>
+				<dl>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+				</dl>
+
+			</div>
+			<!-- キャンペーン -->
+			<div></div>
 
 
 

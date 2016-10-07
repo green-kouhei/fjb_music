@@ -1,36 +1,72 @@
-div.A { /* eƒ{ƒbƒNƒX */
-width: 800px;
-height:800px;
-border: 2px solid #000000;
-text-align: center;
-margin: 5px auto;
+@charset "utf-8";
 
-
-}
-div.box1 { /* ƒ‰ƒ“ƒN */
-background: #ff0000;
-border: 2px solid #000000;
-width: 20px;
-text-align: center;
-margin:20px left ;
-
+#mainBox { /* è¦ªãƒœãƒƒã‚¯ã‚¹ */
+	width: 800px;
+	margin: 0 auto;
 }
 
-div.box2 { /* ƒXƒ‰ƒCƒh1 */
-border: 2px solid #000000;
-width: 300px;
-text-align: center;
-margin: 10px auto;
-
+#A { /* è¦ªãƒœãƒƒã‚¯ã‚¹ */
+	width: 660px;
+	margin-right: -20px;
 }
 
+#B { /* è¦ªãƒœãƒƒã‚¯ã‚¹ */
+	width: 660px;
+	margin-right: -20px;
+}
 
-div.memo { /* ƒƒ‚ */
-background: #ffffff;
-width: 300px;
-padding: 10px;
-text-align: center;
-border: 1px solid #cccccc;
-margin: 10px auto;
-position: absolute;
+#A .boxa1 { /* ãƒ©ãƒ³ã‚¯ */
+	background: #ff0000;
+	width: 20px;
+	text-align: center;
+	margin: 20px left;
+}
+
+#A .boxa2 { /* ã‚¹ãƒ©ã‚¤ãƒ‰1 */
+	border: 23px solid #000000;
+	width: 20px;
+	text-align: center;
+	margin: 10px center;
+}
+
+/* ä»Šé€±ã®å£²ã‚Šä¸Šã’ */
+dt.sample1:before {
+	counter-increment: sample;
+	content: counter(sample) "ä½ã€€";
+}
+
+h3 {
+	counter-reset: sample;
+}
+
+#B .boxb2 { /* ã‚¹ãƒ©ã‚¤ãƒ‰1 */
+	border: 2px solid #000000;
+	text-align: center;
+	margin: 10px center;
+}
+
+#div.memo { /* ãƒ¡ãƒ¢ */
+	background: #ffffff;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	margin: 10px auto;
+	position: absolute;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	display: inline; /*for ie*/
+	border: 2px solid #000000;
+	text-align: center;
+	margin: 10px auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: solid 1px;
+	padding: 0.5em;
 }
