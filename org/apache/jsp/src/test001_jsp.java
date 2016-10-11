@@ -58,7 +58,6 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<body>\r\n");
       out.write("\r\n");
       out.write("<header>\r\n");
-      out.write("\r\n");
       out.write("\t<h1 id=\"head_logo\">\r\n");
       out.write("\t\tFJB Music\r\n");
       out.write("\t\t<form action=\"/\" name=\"search2\" method=\"post\">\r\n");
@@ -76,7 +75,6 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<input type=\"submit\" value=\"新規登録\">\r\n");
       out.write("\t\t</span>\r\n");
       out.write("\t</h1>\r\n");
-      out.write("\r\n");
       out.write("</header>\r\n");
       out.write("\r\n");
       out.write("\r\n");
