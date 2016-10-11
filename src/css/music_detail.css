@@ -1,5 +1,12 @@
-#main_detail{
-	margin-top: 10px;
+.soreppoi{
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_detail{
+	margin-top: 40px;
 }
 
 #cd_img{
@@ -24,11 +31,17 @@
 	margin-right: 10px;
 }
 
-.na{
+.mu{
+	margin-left: 55px;
+	margin-top: 60px;
+}
+#na{
 	float: left;
+	margin-left: 20px;
+
 }
 #shi{
 	float: left;
-	margin-left: 5pc;
+margin-left: 55px;
 
 }

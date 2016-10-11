@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class music_005fpay3_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -51,31 +51,22 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       _jspx_out = out;
 
       out.write("\r\n");
-      out.write("<!DOCTYPE html><html>\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
       out.write("<head>\r\n");
-      out.write("<link rel = \"stylesheet\"href = \"css/music_detail.css\">\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"css/music_pay.css\">\r\n");
       out.write("</head>\r\n");
-      out.write("<body>\r\n");
-      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "test001.jsp", out, false);
+      out.write("<header>\r\n");
+      out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
       out.write("\r\n");
-      out.write("<div class = \"soreppoi\" style=\"text-align : center\">商品詳細</div>\r\n");
-      out.write("<div class = \"main_detail\">\r\n");
-      out.write("<img alt=\"\" src=\"pic/cd.jpg\" id=\"cd_img\">\r\n");
-      out.write("<span id= \"mei\" >商品名<span id = \"sin\">歌手</span></span>\r\n");
-      out.write("<img alt=\"\" src=\"pic/cart.jpg\" id=\"cart_img\">\r\n");
-      out.write("</div>\r\n");
-      out.write("<div class = \"mu\">\r\n");
-      out.write("<span id = \"na\">曲名1</span>\r\n");
-      out.write("<span id = \"shi\" >\r\n");
-      out.write("<audio controls preload=\"auto\" style=\"width:200px;\">\r\n");
+      out.write("</header>\r\n");
+      out.write("<body bgcolor=\"yellow\">\r\n");
+      out.write("<div id=\"main\">\r\n");
+      out.write("<form action=\"music_pay3.jsp\">\r\n");
       out.write("\r\n");
-      out.write("</audio>\r\n");
-      out.write("</span>\r\n");
-      out.write("</div>\r\n");
-      out.write("<footer>\r\n");
-      out.write("<br>Copyright 船橋あいす工房,all rights reserved.\r\n");
-      out.write("</footer>\r\n");
       out.write("\r\n");
+      out.write("\t</form>\r\n");
+      out.write("\t</div>\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
