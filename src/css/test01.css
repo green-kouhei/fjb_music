@@ -121,13 +121,13 @@ div.nav ul.nl li a:hover span.en {
 
 /* --- メニュー項目(文字) --- */
 #dropmenu li a {
-/* 	display: block; */
+	display: block;
 /* 	margin: 0; */
-	padding: 15px;
+	padding: 12px 0 12px;
 /* 	color: #fff; */
 	font-size: 15px;
-/* 	font-weight: bold; */
-/* 	line-height: 1; */
+	font-weight: bold;
+	line-height: 1;
 /* 	text-decoration: none; */
 }
 
@@ -149,11 +149,7 @@ div.nav ul.nl li a:hover span.en {
 	margin: 0;
 	padding: 0;
 	border-radius: 0 0 3px 3px;
-}
-
-#dropmenu li:last-child ul {
-/* 	left: -100%; */
-/* 	width: 100% */
+	z-index:1;
 }
 
 #dropmenu li ul li {
@@ -170,16 +166,16 @@ div.nav ul.nl li a:hover span.en {
 }
 
 #dropmenu li ul li a {
-	padding: 20px;
+	padding: 12px 0 12px;
 	background: #0080c0;
 	text-align: center;
 	font-size: 15px;
-/* 	font-weight: normal; */
+/*  font-weight: normal; */
 }
 
 #dropmenu li:hover ul li {
 	overflow: visible;
-	height: 40px;
+	height: 39px;
 	border-top: 1px solid #000080;
 	border-bottom: 1px solid #000080;
 }
@@ -194,4 +190,40 @@ div.nav ul.nl li a:hover span.en {
 
 #dropmenu li:hover ul li:last-child a {
 /* 	border-radius: 0 0 3px 3px; */
+}
+
+
+
+
+
+dl.search2{
+	position:relative;
+}
+dl.search2 dt{
+	margin-right:0px;
+	padding:0px;
+	background-color:#fff;
+	border:1px solid #aaa;
+}
+dl.search2 dt input{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background:none;
+	border:none;
+}
+dl.search2 dd{
+	position:absolute;
+	top:0;
+	right:0;
+}
+dl.search2 dd button{
+	display:block;
+	width:100px;
+	height:42px;
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+	background-color:#f66;
+	border:1px solid #c66;
 }

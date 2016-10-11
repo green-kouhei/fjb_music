@@ -1,6 +1,22 @@
 #main{
 	background-color : #ffffff;
+	width : 800px;
+	height : 600px;
 	margin-left : auto;
 	margin-right : auto;
-/* 	border: solid 1px blue; */
+	margin-bottom : auto;
+	border: solid 1px blue;
+}
+#tbl{
+	margin-left : auto;
+	margin-right : auto;
+}
+#btn{
+
+}
+#btnbox{
+	width : 200px;
+	margin-left: auto;
+	margin-right : 0px;
+	border: solid 1px red;
 }

@@ -50,53 +50,60 @@
 			</div>
 		</div>
 
-		<div class="B">
-			<div class="boxb1">
-				<h3>
-					<left>今週の売り上げランキング！</left>
-				</h3>
+			<!-- ランキング -->
+			<div>
 				<table>
 
-						<li class="no01">
-							<p class="item-name">
-								<a href="http://www.apple.com/jp/">Apple</a>
-							</p>
-							<p>macのディスプレイのコーティングはがれた。。。</p>
-						</li>
-
-						<li class="no02">
-							<p class="item-name">
-								<a href="http://www.apple.com/jp/">Apple</a>
-							</p>
-							<p>macのディスプレイのコーティングはがれた。。。</p>
-						</li>
-
-						<li class="no03">
-							<p class="item-name">
-								<a href="http://www.apple.com/jp/">Apple</a>
-							</p>
-							<p>macのディスプレイのコーティングはがれた。。。</p>
-						</li>
-
-						<li class="no04">
-							<p class="item-name">
-								<a href="http://www.apple.com/jp/">Apple</a>
-							</p>
-							<p>macのディスプレイのコーティングはがれた。。。</p>
-						</li>
-
-						<li class="no05 end">
-							<p class="item-name">
-								<a href="http://www.apple.com/jp/">Apple</a>
-							</p>
-							<p>macのディスプレイのコーティングはがれた。。。</p>
-						</li>
+					<h3>今週の売り上げランキング</h3>
+					<dl>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+						<tr>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+						</tr>
+					</dl>
 
 				</table>
 
-			</div>
+				<h3>今週の売り上げランキング2</h3>
+				<dl>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+					<dt class="sample1">Hi-STANDARD</dt>
+					<dd>ANOTHER STARTING LINE</dd>
+				</dl>
 
-		</div>
+			</div>
+			<!-- キャンペーン -->
+			<div></div>
+
 
 
 
