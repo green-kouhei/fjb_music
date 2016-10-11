@@ -60,7 +60,7 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("\t<header>\r\n");
       out.write("\t\t<div>\r\n");
-      out.write("\t\t\t<table border=\"1\" width=\"100%\">\r\n");
+      out.write("\t\t\t<table width=\"100%\" style=\"table-layout: fixed\">\r\n");
       out.write("\t\t\t\t<td>\r\n");
       out.write("\t\t\t\t\t<div>\r\n");
       out.write("\t\t\t\t\t\t<h1 id=\"head_logo\">FJB Music\r\n");
