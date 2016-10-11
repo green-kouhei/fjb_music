@@ -6,7 +6,6 @@
 <body>
 
 <header>
-
 	<h1 id="head_logo">
 		FJB Music
 		<form action="/" name="search2" method="post">
@@ -24,7 +23,6 @@
 			<input type="submit" value="新規登録">
 		</span>
 	</h1>
-
 </header>
 
 
