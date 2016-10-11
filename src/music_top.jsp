@@ -52,43 +52,54 @@
 
 		<!-- ランキング -->
 		<div class="rank_table">
-			<table border="1" width="100%">
-				<td>
+			<table style="border-style: none;" border="1" width="100%"
+				style="table-layout: auto">
+				<td style="border-style: none;" border="1">
 					<div>
 						<h3>今週の売り上げランキング1</h3>
-						<dl>
+						<table>
+							<dl>
+							<tr>
+								<td>
+									<dt class="sample1">
+										<li><img src="pic/wanima_art.jpg"></li>
 
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
+									<dd>WANIMA</dd>
+									<dd>JUICE UP‼</dd>
+									</dt>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<dt class="sample1">
+										<li><img src="pic/wanima_art.jpg"></li> WANIMA
+									</dt>
+									<dd>JUICE UP‼</dd>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<dt class="sample1">
+										<li><img src="pic/wanima_art.jpg"></li> WANIMA
+									</dt>
+									<dd>JUICE UP‼</dd>
+								</td>
+							</tr>
+							</dl>
 
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-						</dl>
-
+						</table>
 					</div>
 
 
 				</td>
-				<td>
+				<td style="border-style: none;" border="1">
 					<div>
 						<h3>今週の売り上げランキング2</h3>
 						<dl>
 
-							<dt class="sample1">WANIMA</dt>
+							<dt class="sample1">
+								<li><img src="pic/wanima_art.jpg"></li> WANIMA
+							</dt>
 							<dd>JUICE UP‼</dd>
 
 							<dt class="sample1">WANIMA</dt>
@@ -111,7 +122,7 @@
 
 
 				</td>
-				<td>
+				<td style="border-style: none;" border="1">
 					<div>
 						<h3>今週の売り上げランキング3</h3>
 						<dl>
