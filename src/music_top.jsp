@@ -50,59 +50,104 @@
 			</div>
 		</div>
 
-			<!-- ランキング -->
-			<div>
-				<table>
+		<!-- ランキング -->
+		<div class="rank_table">
+			<table border="1" width="100%">
+				<td>
+					<div>
+						<h3>今週の売り上げランキング1</h3>
+						<dl>
 
-					<h3>今週の売り上げランキング</h3>
-					<dl>
-						<tr>
 							<dt class="sample1">Hi-STANDARD</dt>
 							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-						<tr>
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-						<tr>
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-						<tr>
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-						<tr>
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-						<tr>
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-						</tr>
-					</dl>
 
-				</table>
 
-				<h3>今週の売り上げランキング2</h3>
-				<dl>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-					<dt class="sample1">Hi-STANDARD</dt>
-					<dd>ANOTHER STARTING LINE</dd>
-				</dl>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
 
-			</div>
-			<!-- キャンペーン -->
-			<div></div>
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+						</dl>
+
+					</div>
+
+
+				</td>
+				<td>
+					<div>
+						<h3>今週の売り上げランキング2</h3>
+						<dl>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+
+							<dt class="sample1">WANIMA</dt>
+							<dd>JUICE UP‼</dd>
+						</dl>
+
+					</div>
+
+
+				</td>
+				<td>
+					<div>
+						<h3>今週の売り上げランキング3</h3>
+						<dl>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+							<dt class="sample1">Hi-STANDARD</dt>
+							<dd>ANOTHER STARTING LINE</dd>
+
+						</dl>
+
+					</div>
+
+
+				</td>
+
+
+			</table>
+
+		</div>
+		<!-- キャンペーン -->
+		<div></div>
 
 
 
