@@ -9,7 +9,7 @@
 <div class = "main_detail">
 <img alt="" src="pic/cd.jpg" id="cd_img">
 <span id= "mei" >商品名<span id = "sin">歌手</span></span>
-<img alt="" src="pic/cart.jpg" id="cart_img">
+<img alt="" src="pic/cart.png" id="cart_img">
 </div>
 <div class = "mu">
 <span id = "na">曲名1</span>
@@ -19,8 +19,8 @@
 </audio>
 </span>
 </div>
-<footer>
-<br>Copyright 船橋あいす工房,all rights reserved.
+<footer><br><br><br>
+<div id = "foot">Copyright FJB Music , all rights reserved.</div>
 </footer>
 
 </body>

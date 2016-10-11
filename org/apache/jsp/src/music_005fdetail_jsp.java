@@ -62,7 +62,7 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("<div class = \"main_detail\">\r\n");
       out.write("<img alt=\"\" src=\"pic/cd.jpg\" id=\"cd_img\">\r\n");
       out.write("<span id= \"mei\" >商品名<span id = \"sin\">歌手</span></span>\r\n");
-      out.write("<img alt=\"\" src=\"pic/cart.jpg\" id=\"cart_img\">\r\n");
+      out.write("<img alt=\"\" src=\"pic/cart.png\" id=\"cart_img\">\r\n");
       out.write("</div>\r\n");
       out.write("<div class = \"mu\">\r\n");
       out.write("<span id = \"na\">曲名1</span>\r\n");
@@ -72,8 +72,8 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("</audio>\r\n");
       out.write("</span>\r\n");
       out.write("</div>\r\n");
-      out.write("<footer>\r\n");
-      out.write("<br>Copyright 船橋あいす工房,all rights reserved.\r\n");
+      out.write("<footer><br><br><br>\r\n");
+      out.write("<div id = \"foot\">Copyright FJB Music , all rights reserved.</div>\r\n");
       out.write("</footer>\r\n");
       out.write("\r\n");
       out.write("</body>\r\n");
