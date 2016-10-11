@@ -8,7 +8,7 @@
 
 	<header>
 		<div>
-			<table border="1" width="100%">
+			<table width="100%" style="table-layout: fixed">
 				<td>
 					<div>
 						<h1 id="head_logo">FJB Music
