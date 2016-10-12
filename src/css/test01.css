@@ -192,14 +192,14 @@ div.nav ul.nl li a:hover span.en {
 /* 	border-radius: 0 0 3px 3px; */
 }
 
-
-
-
-
+/* --- 検索バー --- */
+/* --- 検索ボタン --- */
 dl.search2{
 	position:relative;
 }
+/* --- 検索領域 --- */
 dl.search2 dt{
+	width:20%;
 	margin-right:0px;
 	padding:0px;
 	background-color:#fff;
@@ -212,10 +212,11 @@ dl.search2 dt input{
 	background:none;
 	border:none;
 }
+/* --- 検索ボタン --- */
 dl.search2 dd{
 	position:absolute;
 	top:0;
-	right:0;
+	left:200px;
 }
 dl.search2 dd button{
 	display:block;
