@@ -5,12 +5,10 @@
 </head>
 <body>
 <jsp:include page="test001.jsp"></jsp:include>
-<div class = "soreppoi" style="text-align : center">商品詳細</div>
+<div class = "soreppoi"align="center">商品詳細</div>
 <div class = "main_detail">
-<img alt="" src="pic/cd.jpg" id="cd_img">
-<span id= "mei" >商品名<span id = "sin">歌手</span></span>
-<img alt="" src="pic/cart.png" id="cart_img">
-</div>
+<img alt="" src="pic/cd.jpg" id="cd_img"><br><br><br>
+<div id= "mei" >商品名<span id = "sin">歌手</span></div>
 <div class = "mu">
 <span id = "na">曲名1</span>
 <span id = "shi" >
@@ -19,7 +17,13 @@
 </audio>
 </span>
 </div>
-<footer><br><br><br>
+<img alt="" src="pic/cart.png" id="cart_img"><br><br><br><br>
+<div id = "kaka">カートへ</div>
+</div>
+
+
+
+<footer><br><br><br><br>
 <div id = "foot">Copyright FJB Music , all rights reserved.</div>
 </footer>
 
