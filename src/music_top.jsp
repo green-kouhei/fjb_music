@@ -45,6 +45,7 @@
 					<li><img src="pic/mwam.jpg"></li>
 					<li><img src="pic/wanima.jpg"></li>
 					<li><img src="pic/xmas_eileen.jpg"></li>
+					<li><img src="pic/hi-standard.jpg"></li>
 				</ul>
 
 			</div>
@@ -52,39 +53,47 @@
 
 		<!-- ランキング -->
 		<div class="rank_table">
+
 			<table style="border-style: none;" border="1" width="100%"
 				style="table-layout: auto">
-				<td style="border-style: none;" border="1">
-					<div>
-						<h3>今週の売り上げランキング1</h3>
-						<table>
-							<dl>
-							<tr>
-								<td>
-									<dt class="sample1">
-										<li><img src="pic/wanima_art.jpg"></li>
 
-									<dd>WANIMA</dd>
-									<dd>JUICE UP‼</dd>
-									</dt>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<dt class="sample1">
-										<li><img src="pic/wanima_art.jpg"></li> WANIMA
-									</dt>
-									<dd>JUICE UP‼</dd>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<dt class="sample1">
-										<li><img src="pic/wanima_art.jpg"></li> WANIMA
-									</dt>
-									<dd>JUICE UP‼</dd>
-								</td>
-							</tr>
+				<!-- ランキング1 -->
+
+				<td style="border-style: none;" border="1">
+					<div width="100%">
+						<h3>今週の売り上げランキング1</h3>
+						<table border="1" width="100%" style="table-layout: auto;">
+							<dl>
+
+
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<img src="pic/wanima_art.jpg" alt="WANIMA" align="left">
+
+										</dt>
+
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+
+
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
 							</dl>
 
 						</table>
@@ -92,67 +101,87 @@
 
 
 				</td>
+
+				<!-- ランキング2 -->
+
 				<td style="border-style: none;" border="1">
-					<div>
+					<div width="100%">
 						<h3>今週の売り上げランキング2</h3>
-						<dl>
+						<table border="1" width="100%" style="table-layout: auto;">
+							<dl>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li>
+										<dd>WANIMA</dd>
+										<dd>JUICE UP‼</dd>
+										</dt>
+									</td>
+								</tr>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+							</dl>
 
-							<dt class="sample1">
-								<li><img src="pic/wanima_art.jpg"></li> WANIMA
-							</dt>
-							<dd>JUICE UP‼</dd>
-
-							<dt class="sample1">WANIMA</dt>
-							<dd>JUICE UP‼</dd>
-
-							<dt class="sample1">WANIMA</dt>
-							<dd>JUICE UP‼</dd>
-
-							<dt class="sample1">WANIMA</dt>
-							<dd>JUICE UP‼</dd>
-
-							<dt class="sample1">WANIMA</dt>
-							<dd>JUICE UP‼</dd>
-
-							<dt class="sample1">WANIMA</dt>
-							<dd>JUICE UP‼</dd>
-						</dl>
-
+						</table>
 					</div>
 
 
 				</td>
+
+
+				<!-- 3  -->
+
 				<td style="border-style: none;" border="1">
-					<div>
-						<h3>今週の売り上げランキング3</h3>
-						<dl>
+					<div width="100%">
+						<h3>今週の売り上げランキング1</h3>
+						<table border="1" width="100%" style="table-layout: auto;">
+							<dl>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li>
+										<dd>WANIMA</dd>
+										<dd>JUICE UP‼</dd>
+										</dt>
+									</td>
+								</tr>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+								<tr style="table-layout: auto;">
+									<td>
+										<dt class="sample1">
+											<li><img src="pic/wanima_art.jpg"></li> WANIMA
+										</dt>
+										<dd>JUICE UP‼</dd>
+									</td>
+								</tr>
+							</dl>
 
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-							<dt class="sample1">Hi-STANDARD</dt>
-							<dd>ANOTHER STARTING LINE</dd>
-
-						</dl>
-
+						</table>
 					</div>
 
 
 				</td>
-
 
 			</table>
 
