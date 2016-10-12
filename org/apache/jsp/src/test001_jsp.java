@@ -54,7 +54,7 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
-      out.write("\r\n");
+      out.write("<link rel=\"apple-touch-icon\" href=\"pic/home_icon1.png\" />\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       out.write("\r\n");

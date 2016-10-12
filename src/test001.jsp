@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="apple-touch-icon" href="pic/home_icon1.png" />
 </head>
 <body>
 
