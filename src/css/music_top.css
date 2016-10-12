@@ -37,14 +37,6 @@
 /* 	margin: 0 auto; */
 }
 
-dt.sample1:before {
-	counter-increment: sample;
-	content: counter(sample) "位　";
-}
-
-h3 {
-	counter-reset: sample;
-}
 
 #B .boxb2 { /* スライド1 */
 	border: 2px solid #000000;

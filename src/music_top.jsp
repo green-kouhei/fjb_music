@@ -62,38 +62,47 @@
 				<td style="border-style: none;" border="1">
 					<div width="100%">
 						<h3>今週の売り上げランキング1</h3>
-						<table border="1" width="100%" style="table-layout: auto;">
+						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
 
-
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<img src="pic/wanima_art.jpg" alt="WANIMA" align="left">
+									<td><img src="pic/rank_1.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
 
-										</dt>
 
-										<dd>JUICE UP‼</dd>
-									</td>
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
 
-
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_2.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
+
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_3.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
 							</dl>
 
 						</table>
@@ -107,33 +116,44 @@
 				<td style="border-style: none;" border="1">
 					<div width="100%">
 						<h3>今週の売り上げランキング2</h3>
-						<table border="1" width="100%" style="table-layout: auto;">
+						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li>
-										<dd>WANIMA</dd>
-										<dd>JUICE UP‼</dd>
-										</dt>
-									</td>
+									<td><img src="pic/rank_1.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_2.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_3.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
 							</dl>
 
 						</table>
@@ -147,34 +167,45 @@
 
 				<td style="border-style: none;" border="1">
 					<div width="100%">
-						<h3>今週の売り上げランキング1</h3>
-						<table border="1" width="100%" style="table-layout: auto;">
+						<h3>今週の売り上げランキング3</h3>
+						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li>
-										<dd>WANIMA</dd>
-										<dd>JUICE UP‼</dd>
-										</dt>
-									</td>
+									<td><img src="pic/rank_1.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_2.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
+								<!-- ここから -->
 								<tr style="table-layout: auto;">
-									<td>
-										<dt class="sample1">
-											<li><img src="pic/wanima_art.jpg"></li> WANIMA
-										</dt>
-										<dd>JUICE UP‼</dd>
-									</td>
+									<td><img src="pic/rank_3.PNG" align="left"> <img
+										src="pic/wanima_art.jpg" align="left">
+
+
+
+										<dd>
+											WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+										</dd></td>
 								</tr>
+								<!-- ここまで -->
 							</dl>
 
 						</table>
