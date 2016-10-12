@@ -3,6 +3,19 @@
 <html>
 
 <body bgcolor="yellow">
+<div id="navi">
+<table>
+<tr>
+			<td><img alt=""src="pic/login.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_img">
+			<img alt=""src="pic/nyuuryoku.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_img">
+			<img alt=""src="pic/kakunin.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_img">
+			<img alt=""src="pic/kanryou.png"class="main_img"></td>
+		</tr>
+		</table>
+		</div>
 
 </body>
 </html>

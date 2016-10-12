@@ -1,3 +1,7 @@
+#head_h1{
+	width : 150px;
+	border: solid 1px blue;
+}
 #main{
 	background-color : #ffffff;
 	width : 800px;
@@ -7,6 +11,20 @@
 	margin-bottom : auto;
 	border: solid 1px blue;
 }
+#navi{
+	width : 500px;
+	margin-left: auto;
+	margin-right : auto;
+/* 	border: solid 1px red; */
+
+}
+.main_img{
+	width: 15%;
+}
+.main_yimg{
+	width: 4%;
+}
+
 #tbl{
 	margin-left : auto;
 	margin-right : auto;

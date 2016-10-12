@@ -7,11 +7,29 @@
 <header>
 	<h1 id="head_h1">FJB Music</h1>
 
+
 </header>
 <body bgcolor="yellow">
+<%-- <jsp:include page="test_pay001.jsp"></jsp:include> --%>
+<div id="navi">
+<table>
+<tr>
+			<td><img alt=""src="pic/login.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/nyuuryoku.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/kakunin.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/kanryou.png"class="main_img"></td>
+		</tr>
+		</table>
+		</div>
+
 <div id="main">
 <form action="music_pay3.jsp">
 	<table>
+
+		<tr>
 		<tr>
 			<td>名前<input type="text" name="姓" size="12"><input type="text" name="名" size="12"></td>
 		</tr>
