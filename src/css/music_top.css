@@ -30,6 +30,13 @@
 }
 
 /* 今週の売り上げ */
+.rank_table {
+/* 	position: absolute; */
+/* 	width: 20px; */
+/* 	height: 20px; */
+/* 	margin: 0 auto; */
+}
+
 dt.sample1:before {
 	counter-increment: sample;
 	content: counter(sample) "位　";
