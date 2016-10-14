@@ -4,20 +4,25 @@
 }
 #main{
 	background-color : #ffffff;
-	width : 800px;
-	height : 600px;
+	width : 700px;
+	height : 750px;
 	margin-left : auto;
 	margin-right : auto;
 	margin-bottom : auto;
 	border: solid 1px blue;
+	padding-left: 100px;
 }
 #navi{
-	width : 500px;
+	width : 630px;
 	margin-left: auto;
 	margin-right : auto;
 /* 	border: solid 1px red; */
 
 }
+#nyuuryoku{
+	margin-left : 100px;
+}
+
 .main_img{
 	width: 15%;
 }
@@ -30,6 +35,8 @@
 	margin-right : auto;
 }
 #btn{
+	width: 100px;
+	height: 40px;
 
 }
 #btnbox{

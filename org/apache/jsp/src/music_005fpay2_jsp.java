@@ -61,6 +61,14 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\r\n");
       out.write("\r\n");
       out.write("</header>\r\n");
+      out.write("<script type=\"text/javascript\">\r\n");
+      out.write("function disp(){\r\n");
+      out.write("\tvar e1 =document.getElementById(\"no2\");\r\n");
+      out.write("\te1.options[0] = new Option(\"1G1\")\r\n");
+      out.write("\te1.options[1] = new Option(\"2G1\")\r\n");
+      out.write("}\r\n");
+      out.write("\r\n");
+      out.write("</script>\r\n");
       out.write("<body bgcolor=\"yellow\">\r\n");
       out.write("\r\n");
       out.write("<div id=\"navi\">\r\n");
@@ -68,7 +76,7 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<tr>\r\n");
       out.write("\t\t\t<td><img alt=\"\"src=\"pic/login.png\"class=\"main_img\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/nyuuryoku.png\"class=\"main_img\">\r\n");
+      out.write("\t\t\t<img alt=\"\"src=\"pic/nyuuryoku2.png\"class=\"main_img\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/kakunin.png\"class=\"main_img\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
@@ -82,44 +90,146 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t<table>\r\n");
       out.write("\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>名前<input type=\"text\" name=\"姓\" size=\"12\"><input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
+      out.write("\t\t<tr><br>\r\n");
+      out.write("\t\t\t<td>名前<br><input type=\"text\" name=\"姓\" size=\"12\"><input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>フリガナ<input type=\"text\" name=\"姓\" size=\"12\"><input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
+      out.write("\t\t\t<td><br>フリガナ<br><input type=\"text\" name=\"姓\" size=\"12\"><input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>生年月日</td>\r\n");
+      out.write("\t\t\t<td><br>生年月日<br><input type=\"text\" name=\"年\" size=\"4\">年\r\n");
+      out.write("\r\n");
+      out.write("\t\t<select onchange=\"disp()\">\r\n");
+      out.write("\t\t");
+
+			for (int i = 1; i <= 12; i++) {
+		
+      out.write("\r\n");
+      out.write("\t\t<option>\r\n");
+      out.write("\t\t\t");
+      out.print(i);
+      out.write("</option>\r\n");
+      out.write("\t\t");
+
+			}
+		
+      out.write("\r\n");
+      out.write("\t</select>月\r\n");
+      out.write("\t<select onchange=\"disp()\">\r\n");
+      out.write("\t");
+
+			for (int i = 1; i <= 31; i++) {
+		
+      out.write("\r\n");
+      out.write("\t\t<option>\r\n");
+      out.write("\t\t\t");
+      out.print(i);
+      out.write("</option>\r\n");
+      out.write("\t\t");
+
+			}
+		
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t</select>日</td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>メールアドレス<input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
+      out.write("\t\t\t<td><br>メールアドレス<br><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>確認<input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
+      out.write("\t\t\t<td><br>確認<br><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>郵便番号</td>\r\n");
+      out.write("\t\t\t<td><br>郵便番号<br><input type=\"text\" name=\"郵便\" size=\"12\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>都道府県<input type=\"text\" name=\"都道府県\" size=\"12\"></td>\r\n");
+      out.write("\t\t\t<td><br>都道府県<br>\r\n");
+      out.write("\t\t\t<select onchange=\"disp()\">\r\n");
+      out.write("\t\t");
+
+		String tlist[]=new String[47];
+		tlist[0]="北海道";
+		tlist[1]="青森県";
+		tlist[2]="岩手県";
+		tlist[3]="宮城県";
+		tlist[4]="秋田県";
+		tlist[5]="山形県";
+		tlist[6]="福島県";
+		tlist[7]="茨城県";
+		tlist[8]="栃木県";
+		tlist[9]="群馬県";
+		tlist[10]="埼玉県";
+		tlist[11]="千葉県";
+		tlist[12]="東京都";
+		tlist[13]="神奈川県";
+		tlist[14]="新潟県";
+		tlist[15]="富山県";
+		tlist[16]="石川県";
+		tlist[17]="福井県";
+		tlist[18]="山梨県";
+		tlist[19]="長野県";
+		tlist[20]="岐阜県";
+		tlist[21]="静岡県";
+		tlist[22]="愛知県";
+		tlist[23]="三重県";
+		tlist[24]="滋賀県";
+		tlist[25]="京都府";
+		tlist[26]="大阪府";
+		tlist[27]="兵庫県";
+		tlist[28]="奈良県";
+		tlist[29]="和歌山県";
+		tlist[30]="鳥取県";
+		tlist[31]="島根県";
+		tlist[32]="岡山県";
+		tlist[33]="広島県";
+		tlist[34]="山口県";
+		tlist[35]="徳島県";
+		tlist[36]="香川県";
+		tlist[37]="愛媛県";
+		tlist[38]="高知県";
+		tlist[39]="福岡県";
+		tlist[40]="佐賀県";
+		tlist[41]="長崎県";
+		tlist[42]="熊本県";
+		tlist[43]="大分県";
+		tlist[44]="宮崎県";
+		tlist[45]="鹿児島県";
+		tlist[46]="沖縄県";
+
+			for (int i = 0; i < 47; i++) {
+		
+      out.write("\r\n");
+      out.write("\t\t<option>\r\n");
+      out.write("\t\t\t");
+      out.print(tlist[i]);
+      out.write("</option>\r\n");
+      out.write("\t\t");
+
+			}
+		
+      out.write("\r\n");
+      out.write("\t</select></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>市区町村<input type=\"text\" name=\"市区町村\" size=\"12\"></td>\r\n");
+      out.write("\t\t\t<td><br>市区町村<br><input type=\"text\" name=\"市区町村\" size=\"12\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>番地・部屋番号<input type=\"text\" name=\"番地\" size=\"12\"></td>\r\n");
+      out.write("\t\t\t<td><br>番地・部屋番号<br><input type=\"text\" name=\"番地\" size=\"12\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td><input type=\"radio\" name=\"支払い\"value=\"クレジットカード\" >お支払い方法</td>\r\n");
+      out.write("\t\t\t<td><br>お支払い方法<br><br><input type=\"radio\" name=\"支払い\"value=\"クレジットカード\" >クレジットカード</td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td>番号<input type=\"text\" name=\"カード番号\" size=\"12\"></td>\r\n");
+      out.write("\t\t\t<td>番号<br><input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
+      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
+      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
+      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td><input type=\"radio\" name=\"支払い\"value=\"代引き\" >代引き</td>\r\n");
+      out.write("\t\t\t<td><br><input type=\"radio\" name=\"支払い\"value=\"代引き\" >代引き</td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td><input id=\"btn\" type=\"submit\" value=\"確認\"></td>\r\n");
+      out.write("\t\t\t<td><br><input id=\"btn\" type=\"submit\" value=\"確認\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\r\n");
       out.write("\r\n");
