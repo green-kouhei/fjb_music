@@ -8,49 +8,47 @@
 	margin-right: auto;
 }
 
-.main_detail{
-	margin-top: 100px;
+#cd_img{
+	width: 180px;
+	height: 180px;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
-#cd_img{
-	width: 200px;
-	height: 200px;
-	float: left;
-	margin-left: 100px;
+.syou{
+/* 	margin-right: 200px; */
+/* 	margin-top: 80px; */
 }
+
 #mei{
-	font-size: 30px;
-	margin-left: 350px;
-	margin-right: auto;
+	font-size: 40px;
+/* 	margin-right: auto; */
 }
+
 #sin{
-	font-size: 17px;
-	margin-left: 20px;
+	font-size: 20px;
+}
+
+#kane{
+	font-size: 30px;
 }
 
 #cart_img{
 	width: 50px;
 	float: right;
-	margin-right: 300px;
 }
 
 #kaka{
 	float: right;
-	margin-right: 290px;
 }
-.mu{
-	margin-left: 55px;
-	margin-top: 60px;
-}
-#na{
-	float: left;
-	margin-left: 50px;
 
+#na{
+	margin-left: 50px;
+	margin-right: 50px
 }
-#shi{
-	float: left;
-	margin-left: 55px;
-}
+
+
+
 #foot{
 	float: left;
 }

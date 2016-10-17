@@ -10,59 +10,218 @@
 	<jsp:include page="test001.jsp"></jsp:include>
 
 	<!-- ここから -->
-	<table style="border-style: none;" border="1" width="100%"
-		style="table-layout: auto">
+	<table style="border-style: none;" border="0" width="100%" height="100%"
+		 style="table-layout: auto;">
+		<tbody>
 
-		<!-- サイド関連_R -->
-		<tr width="20%">
-			<!-- ここにかく -->
+			<!-- 1 -->
+			<td style="border-style: none;" border="1" width="20%" bgcolor="#FF11AA">
+				<div width="20%">
+					<h3>詳細R</h3>
+					<table border="1" width="80%" style="table-layout: auto;">
 
-		</tr>
-
-		<!-- 詳細 -->
-		<tr width="60%">
-			<div>
-				<div class="soreppoi" align="center">商品詳細</div>
-				<div class="main_detail">
-					<img alt="" src="pic/cd.jpg" id="cd_img"><br> <br>
-					<br>
-					<div id="mei">
-						商品名
-					</div>
-
-					<span id="sin">歌手</span>
-
-					<div class="mu">
-						<div id="na">
-							曲名1
-							<audio controls preload="auto" style="width: 200px;">
-
-							</audio>
-						</div>
-						<div id="na">曲名2</div>
-						<span id="shi"> <audio controls preload="auto"
-								style="width: 200px;">
-
-							</audio>
-						</span>
-					</div>
-					<img alt="" src="pic/cart.png" id="cart_img"><br> <br>
-					<br> <br>
-					<div id="kaka">カートへ</div>
+					</table>
 				</div>
 
 
-			</div>
+			</td>
 
-		</tr>
+			<!-- 2 -->
 
-		<!-- サイド関連_L -->
-		<tr width="20%">
+			<td style="border-style: none;" border="1" width="60%" bgcolor="#FFAACC" >
+				<div width="60%">
+					<h3>メイン</h3>
 
-			<!-- ここにかく -->
+					<table border="1" width="80%" style="table-layout: auto;">
 
-		</tr>
+						<tr>
+							<td width="50%"><img alt="" src="pic/cd.jpg" id="cd_img">
+							</td>
+							<td width="50%">
+								<div class="syou">
+									<div id="mei">商品名</div>
+
+									<br> <br>
+
+									<div id="sin">歌手</div>
+									<br> <br> <span id="kane"> 金額 <u>\3000</u>
+									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br>
+									<br>
+									<div id="kaka">カートへ</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td width="50%">
+								<!-- 						視聴場所 -->
+									<div id="na">
+										曲名1
+										<audio controls preload="auto" style="width: 200px;">
+
+										</audio>
+									</div>
+									<br>
+									<div id="na">
+										曲名2
+										<audio controls preload="auto" style="width: 200px;">
+
+										</audio>
+									</div>
+							</td>
+							<td width="50%" bgcolor="#AA00FF">
+									<!-- 詳細入れる -->
+									<div class="syousai"
+										style="height: 200px; width: 300px; overflow: auto;">
+										商品詳細
+										<!-- ここから -->
+										a
+										aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+										a<br>
+									</div>
+								</div>
+						</tr>
+
+						<!-- 						<table style="border-style: none;" border="1" width="60%" -->
+						<!-- 							style="table-layout: auto"> -->
+
+						<!-- 							<td width="30%"> -->
+						<!-- 																		視聴場所 -->
+						<!-- 								<div class="mu"> -->
+						<!-- 									<div id="na"> -->
+						<!-- 										曲名1 -->
+						<!-- 										<audio controls preload="auto" style="width: 200px;"> -->
+
+						<!-- 										</audio> -->
+						<!-- 									</div> -->
+						<!-- 									<br> -->
+						<!-- 									<div id="na"> -->
+						<!-- 										曲名2 -->
+						<!-- 										<audio controls preload="auto" style="width: 200px;"> -->
+
+						<!-- 										</audio> -->
+						<!-- 									</div> -->
+						<!-- 								</div> -->
+						<!-- 							</td> -->
+						<!-- 							<td width="30%" height="100%" bgcolor="#9999ff"> -->
+						<!-- 								<div class="mu"> -->
+						<!-- 																				詳細入れる -->
+						<!-- 									<div class="syousai" -->
+						<!-- 										style="height: 100%; width: 100%; overflow-x: scroll;"> -->
+						<!-- 										商品詳細 -->
+						<!-- 																						ここから -->
+
+						<!-- 									</div> -->
+						<!-- 								</div> -->
+						<!-- 							</td> -->
+						<!-- 						</table> -->
+					</table>
+
+					<!-- 3 -->
+			<td style="border-style: none;" border="1" width="20%" bgcolor="#FF11AA">
+				<div width="20%">
+					<h3>詳細L</h3>
+					<table border="1" width="80%" style="table-layout: auto;">
+
+					</table>
+				</div>
+
+
+			</td>
+		</tbody>
+
 	</table>
+
+
+
+
+
+	<!-- ここまで -->
+
+	<!-- 			<!-- サイド関連_R -->
+
+	<!-- 			<td width="20%"  width="100%" style="table-layout: auto"> -->
+	<!-- 				ここにかく 関連項目R -->
+	<!-- 			</td> -->
+
+	<!-- 			<!-- 詳細 -->
+
+	<!-- 			<td width="60%"  width="100%" style="table-layout: auto"> -->
+	<!-- 				<div> -->
+	<!-- 					<div class="soreppoi" align="center">商品詳細</div> -->
+	<!-- 					<td width="50%"><img alt="" src="pic/cd.jpg" id="cd_img"> -->
+	<!-- 					</td> -->
+	<!-- 					<td width="50%"> -->
+	<!-- 						<div class="syou"> -->
+	<!-- 							<div id="mei">商品名</div> -->
+
+	<!-- 							<br> <br> -->
+
+	<!-- 							<div id="sin">歌手</div> -->
+	<!-- 							<br> <br> <span id="kane"> 	金額 <u>\3000</u> -->
+	<!-- 							</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br> -->
+	<!-- 							<br> -->
+	<!-- 							<div id="kaka">カートへ</div> -->
+	<!-- 						</div> -->
+	<!-- 					</td> -->
+
+	<!-- 					<table style="border-style: none;" border="0" width="100%" -->
+	<!-- 						style="table-layout: auto"> -->
+
+	<!-- 						<td width="50%"> -->
+	<!-- 								視聴場所 -->
+	<!-- 							<div class="mu"> -->
+	<!-- 								<div id="na"> -->
+	<!-- 									曲名1 -->
+	<!-- 									<audio controls preload="auto" style="width: 200px;"> -->
+
+	<!-- 									</audio> -->
+	<!-- 								</div> -->
+	<!-- 								<br> -->
+	<!-- 								<div id="na"> -->
+	<!-- 									曲名2 -->
+	<!-- 									<audio controls preload="auto" style="width: 200px;"> -->
+	<!-- 								</div> -->
+	<!-- 								</audio> -->
+	<!-- 							</div> -->
+	<!-- 						</td> -->
+	<!-- 						<td width="200px" height="200px" bgcolor="#9999ff"> -->
+	<!-- 							<div class="mu"> -->
+	<!-- 									詳細入れる -->
+	<!-- 								<div class="syousai" -->
+	<!-- 									style="height: 200px; width: 200px; overflow-x: scroll;"> -->
+	<!-- 									商品詳細 -->
+	<!-- 										ここから -->
+
+	<!-- 								</div> -->
+	<!-- 							</div> -->
+	<!-- 						</td> -->
+	<!-- 					</table> -->
+	<!-- 			</td> -->
+
+	<!-- 			<!-- サイド関連_L -->
+
+	<!-- 			<td width="20%"  width="100%" style="table-layout: auto"> -->
+	<!-- 				ここにかく 関連項目L -->
+
+	<!-- 			</td> -->
+
+
 
 
 
