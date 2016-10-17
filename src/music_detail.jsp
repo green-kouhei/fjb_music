@@ -10,16 +10,41 @@
 	<jsp:include page="test001.jsp"></jsp:include>
 
 	<!-- ここから -->
-	<table style="border-style: none;" border="0" width="100%" height="100%"
-		 style="table-layout: auto;">
+	<table style="border-style: none;" border="0" width="100%"
+		height="400px" style="table-layout: auto;">
 		<tbody>
 
 			<!-- 1 -->
-			<td style="border-style: none;" border="1" width="20%" bgcolor="#FF11AA">
+			<td style="border-style: none;" border="0" width="20%"
+				bgcolor="#FF11AA">
 				<div width="20%">
 					<h3>詳細R</h3>
-					<table border="1" width="80%" style="table-layout: auto;">
-
+					<table border="0" width="100%" style="table-layout: auto;">
+						<tr>
+							<td><img src="pic/wanima_art.jpg" align="left">
+								<dd>
+									WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+								</dd></td>
+						</tr>
+						<tr>
+							<td><img src="pic/wanima_art.jpg" align="left">
+								<dd>
+									WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+								</dd></td>
+						</tr>
+						<tr>
+							<td><img src="pic/wanima_art.jpg" align="left">
+								<dd>
+									WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+								</dd></td>
+						</tr>
+						<tr>
+							<td><img src="pic/wanima_art.jpg" align="left">
+								<dd>
+									WANIMA JUICE UP‼<br> WANIMA JUICE UP‼
+								</dd></td>
+						</tr>
+						<!-- ここまで -->
 					</table>
 				</div>
 
@@ -28,11 +53,12 @@
 
 			<!-- 2 -->
 
-			<td style="border-style: none;" border="1" width="60%" bgcolor="#FFAACC" >
+			<td style="border-style: none;" border="0" width="60%"
+				bgcolor="#FFAACC">
 				<div width="60%">
 					<h3>メイン</h3>
 
-					<table border="1" width="80%" style="table-layout: auto;">
+					<table border="0" width="100%" style="table-layout: auto;">
 
 						<tr>
 							<td width="50%"><img alt="" src="pic/cd.jpg" id="cd_img">
@@ -45,55 +71,43 @@
 
 									<div id="sin">歌手</div>
 									<br> <br> <span id="kane"> 金額 <u>\3000</u>
+
 									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br>
 									<br>
 									<div id="kaka">カートへ</div>
+
 								</div>
+
 							</td>
+
 						</tr>
+
 						<tr>
 							<td width="50%">
 								<!-- 						視聴場所 -->
-									<div id="na">
-										曲名1
-										<audio controls preload="auto" style="width: 200px;">
+								<div id="na">
+									曲名1
+									<audio controls preload="auto" style="width: 200px;">
 
-										</audio>
-									</div>
-									<br>
-									<div id="na">
-										曲名2
-										<audio controls preload="auto" style="width: 200px;">
+									</audio>
+								</div> <br>
+								<div id="na">
+									曲名2
+									<audio controls preload="auto" style="width: 200px;">
 
-										</audio>
-									</div>
+									</audio>
+								</div>
 							</td>
 							<td width="50%" bgcolor="#AA00FF">
-									<!-- 詳細入れる -->
-									<div class="syousai"
-										style="height: 200px; width: 300px; overflow: auto;">
-										商品詳細
-										<!-- ここから -->
-										a
-										aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-										a<br>
-									</div>
+								<!-- 詳細入れる -->
+								<div class="syousai"
+									style="height: 200px;; width: 390px; overflow: auto;">
+									商品詳細
+									<!-- ここから -->
+									a aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br> a<br> a<br>
+									a<br> a<br> a<br> a<br> a<br> a<br>
+									a<br> a<br> a<br> a<br> a<br> a<br>
+									a<br> a<br> a<br>
 								</div>
 						</tr>
 
@@ -133,16 +147,28 @@
 					</table>
 
 					<!-- 3 -->
-			<td style="border-style: none;" border="1" width="20%" bgcolor="#FF11AA">
-				<div width="20%">
-					<h3>詳細L</h3>
-					<table border="1" width="80%" style="table-layout: auto;">
+					<td style="border-style: none;" border="0" width="20%"
+						bgcolor="#FF11AA">
+						<div width="20%">
+							<h3>詳細L</h3>
+							<table border="0" width="100%" style="table-layout: auto;">
+								<tr>
+									<td><img alt="" src="pic/cd.jpg" id="kanren"><img
+										alt="" src="pic/cd.jpg" id="kanren"></td>
+									<td><img alt="" src="pic/cd.jpg" id="kanren"><img
+										alt="" src="pic/cd.jpg" id="kanren"></td>
+								</tr>
+								<tr>
+									<td><img alt="" src="pic/cd.jpg" id="kanren"><img
+										alt="" src="pic/cd.jpg" id="kanren"></td>
+									<td><img alt="" src="pic/cd.jpg" id="kanren"><img
+										alt="" src="pic/cd.jpg" id="kanren"></td>
+								</tr>
+							</table>
+						</div>
 
-					</table>
-				</div>
 
-
-			</td>
+					</td>
 		</tbody>
 
 	</table>

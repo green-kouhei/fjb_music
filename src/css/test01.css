@@ -143,6 +143,10 @@ div.nav ul.nl li a:hover span.en {
 	z-index:1;
 }
 
+#dropmenu li:last-child ul{
+  width: 100%
+}
+
 #dropmenu li ul li {
 	overflow: hidden;
 	width: 100%;
