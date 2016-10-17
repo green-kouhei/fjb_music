@@ -63,7 +63,9 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<table width=\"100%\" style=\"table-layout: fixed\">\r\n");
       out.write("\t\t\t\t<td>\r\n");
       out.write("\t\t\t\t\t<div>\r\n");
-      out.write("\t\t\t\t\t\t<h1 id=\"head_logo\">FJB Music\r\n");
+      out.write("\t\t\t\t\t<a href=\"music_top.jsp\">\r\n");
+      out.write("\t\t\t\t\t\t<h1 id=\"head_logo\">FJB Music</h1>\r\n");
+      out.write("\t\t\t\t\t\t</a>\r\n");
       out.write("\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t</td>\r\n");
       out.write("\t\t\t\t<td>\r\n");
@@ -86,7 +88,7 @@ public final class test001_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t\t<span id=\"head_login\"> <input type=\"submit\" value=\"ログイン\"><br>\r\n");
       out.write("\t\t\t\t\t\t\t<input type=\"submit\" value=\"新規登録\">\r\n");
       out.write("\t\t\t\t\t\t</span>\r\n");
-      out.write("\t\t\t\t\t\t</h1>\r\n");
+      out.write("\r\n");
       out.write("\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t</td>\r\n");
       out.write("\t\t\t</table>\r\n");
