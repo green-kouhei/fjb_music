@@ -40,16 +40,54 @@
 			<!-- スライド -->
 			<div class="boxa2" align="center">
 				<ul class="bxslider">
-					<li><img src="pic/10feet.jpg"></li>
-					<li><img src="pic/ken_yokoyama.jpg"></li>
-					<li><img src="pic/mwam.jpg"></li>
-					<li><img src="pic/wanima.jpg"></li>
-					<li><img src="pic/xmas_eileen.jpg"></li>
-					<li><img src="pic/hi-standard.jpg"></li>
+					<li><a href="music_detail.jsp"><img src="pic/10feet.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img src="pic/ken_yokoyama.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img src="pic/mwam.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img src="pic/wanima.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img src="pic/xmas_eileen.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img src="pic/hi-standard.jpg"></a></li>
 				</ul>
 
 			</div>
 		</div>
+
+		<div>
+			<a href="music_detail.jsp"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover"></a>
+			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button"class="rollover"></a>
+			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-suffix"></a>
+			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade1"></a>
+			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade2"></a>
+
+			<script src="jquery.easy-rollover.js"></script>
+			<script>
+				$(function() {
+					// 通常
+					$('.rollover').easyRollover();
+
+					// サフィックス
+					$('.rollover-suffix').easyRollover({
+						suffix : '_off.',
+						suffix_replace : '_on.'
+					});
+
+					// 透過フェードするだけのロールオーバー
+					$('.rollover-fade1').easyRollover({
+						suffix : false,
+						transition : 'fade',
+						opacity : 0.2,
+						duration : 400
+					});
+
+					// フェードして切り替わるロールオーバー
+					$('.rollover-fade2').easyRollover({
+						transition : 'fade',
+						duration : 1000,
+						easing : 'swing'
+					});
+				});
+			</script>
+		</div>
+
 
 		<!-- ランキング -->
 		<div class="rank_table">
