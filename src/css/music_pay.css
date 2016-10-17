@@ -2,7 +2,28 @@
 	width : 150px;
 	border: solid 1px blue;
 }
-#main{
+#main1{
+	background-color : #ffffff;
+	width : 700px;
+	height : auto;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : auto;
+	padding-top: 20px;
+	border-color: black;
+}
+#in{
+	font-size: 25px;
+}
+#btnbox{
+	width : 400px;
+	height : 150px;
+	margin-left : auto;
+	margin-bottom : auto;
+	padding-top : 70px;
+/* 	border: solid 1px red; */
+}
+#main2{
 	background-color : #ffffff;
 	width : 700px;
 	height : 750px;
@@ -11,6 +32,12 @@
 	margin-bottom : auto;
 	border: solid 1px blue;
 	padding-left: 100px;
+}
+#main3{
+
+}
+#main4{
+
 }
 #navi{
 	width : 630px;
@@ -38,10 +65,4 @@
 	width: 100px;
 	height: 40px;
 
-}
-#btnbox{
-	width : 200px;
-	margin-left: auto;
-	margin-right : 0px;
-	border: solid 1px red;
 }
