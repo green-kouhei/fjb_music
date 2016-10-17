@@ -11,7 +11,9 @@
 			<table width="100%" style="table-layout: fixed">
 				<td>
 					<div>
-						<h1 id="head_logo">FJB Music
+					<a href="music_top.jsp">
+						<h1 id="head_logo">FJB Music</h1>
+						</a>
 					</div>
 				</td>
 				<td>
@@ -34,7 +36,7 @@
 						<span id="head_login"> <input type="submit" value="ログイン"><br>
 							<input type="submit" value="新規登録">
 						</span>
-						</h1>
+
 					</div>
 				</td>
 			</table>
@@ -49,38 +51,33 @@
 			<ul id="dropmenu">
 				<li><a href="#">おすすめ</a>
 					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
+						<li><a href="#">今週のおすすめ</a></li>
+						<li><a href="#">あなたへのおすすめ</a></li>
 					</ul></li>
 				<li><a href="#">ランキング</a>
 					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
+						<li><a href="#">CDシングル</a></li>
+						<li><a href="#">CDアルバム</a></li>
+						<li><a href="#">予約総合</a></li>
 					</ul></li>
 				<li><a href="#">ジャンル</a>
 					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
+						<li><a href="#">J-POP</a></li>
+						<li><a href="#">ロック/ポップス</a></li>
+						<li><a href="#">アニメ/キッズ</a></li>
 					</ul></li>
 				<li><a href="#">トップ</a>
-					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
-					</ul></li>
 				<li><a href="#">マイページ</a>
 					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
+						<li><a href="#">会員情報</a></li>
+						<li><a href="#">購入履歴</a></li>
+						<li><a href="#">お気に入りアーティスト</a></li>
 					</ul></li>
 				<li><a href="#">カート</a>
+				<li><a href="#">ヘルプ</a>
 					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
-					</ul></li>
-				<li><a href="#">お問い合わせ</a>
-					<ul>
-						<li><a href="#">サブメニュー</a></li>
-						<li><a href="#">サブメニュー</a></li>
+						<li><a href="#">Q＆A</a></li>
+						<li><a href="#">お問い合わせ</a></li>
 					</ul></li>
 			</ul>
 		</ul>
