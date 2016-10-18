@@ -10,8 +10,30 @@
 	margin-right : auto;
 	margin-bottom : auto;
 	border: solid 1px blue;
-	padding-left: 100px;
+	padding-left: 0px;
 }
+table.sample1 {
+	border: solid 1px black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	}
+td.left {
+	width : 120px;
+	height : 35px;
+	background-color: #bde9ba;
+	}
+	td.right {
+	height : auto;
+	}
+	td.last {
+	background-color: #bde9ba;
+	width : 120px;
+	height : 100px;
+	}
 #navi{
 	width : 630px;
 	margin-left: auto;
@@ -35,8 +57,10 @@
 	margin-right : auto;
 }
 #btn{
-	width: 100px;
+	width: 250px;
 	height: 40px;
+	margin-left : 200px;
+
 
 }
 #btnbox{

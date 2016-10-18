@@ -35,17 +35,18 @@ function disp(){
 
 <div id="main">
 <form action="music_pay3.jsp">
-	<table>
-
+	<table border="1" class="sample1">
 		<tr>
-		<tr><br>
-			<td>名前<br><input type="text" name="姓" size="12"><input type="text" name="名" size="12"></td>
+			<td class="left">氏名：</td>
+			<td class="rigth">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
 		</tr>
 		<tr>
-			<td><br>フリガナ<br><input type="text" name="姓" size="12"><input type="text" name="名" size="12"></td>
+			<td class="left">フリガナ</td>
+			<td class="rigth"><input type="text" name="姓" size="12"><input type="text" name="名" size="12"></td>
 		</tr>
 		<tr>
-			<td><br>生年月日<br><input type="text" name="年" size="4">年
+			<td class="left">生年月日</td>
+			<td class="rigth"><input type="text" name="年" size="4">年
 
 		<select onchange="disp()">
 		<%
@@ -70,17 +71,20 @@ function disp(){
 	</select>日</td>
 		</tr>
 		<tr>
-			<td><br>メールアドレス<br><input type="text" name="アドレス" size="40"></td>
+			<td class="left">メールアドレス</td>
+			<td class="rigth"><input type="text" name="アドレス" size="40"></td>
 		</tr>
 		<tr>
-			<td><br>確認<br><input type="text" name="アドレス" size="40"></td>
+			<td class="left">確認</td>
+			<td class="rigth"><input type="text" name="アドレス" size="40"></td>
 		</tr>
 		<tr>
-			<td><br>郵便番号<br><input type="text" name="郵便" size="12"></td>
+			<td class="left">郵便番号</td>
+			<td class="rigth"><input type="text" name="郵便" size="12"></td>
 		</tr>
 		<tr>
-			<td><br>都道府県<br>
-			<select onchange="disp()">
+			<td class="left">都道府県</td>
+			<td class="rigth"><select onchange="disp()">
 		<%
 		String tlist[]=new String[47];
 		tlist[0]="北海道";
@@ -135,49 +139,26 @@ function disp(){
 		%>
 		<option>
 			<%=tlist[i]%></option>
-		<%
-			}
-		%>
+		<%}%>
 	</select></td>
 		</tr>
 		<tr>
-			<td><br>市区町村<br><input type="text" name="市区町村" size="12"></td>
+			<td class="left">市区町村</td>
+			<td class="rigth"><input type="text" name="市区町村" size="12"></td>
 		</tr>
 		<tr>
-			<td><br>番地・部屋番号<br><input type="text" name="番地" size="12"></td>
+			<td class="left">番地・部屋番号</td>
+			<td class="rigth"><input type="text" name="番地" size="12"></td>
 		</tr>
 		<tr>
-			<td><br>お支払い方法<br><br><input type="radio" name="支払い"value="クレジットカード" >クレジットカード</td>
-		</tr>
-		<tr>
-			<td>番号<br><input type="text" name="カード番号" size="4">-
+			<td class="last">お支払い方法<td class="rigth"><input type="radio" name="支払い"value="クレジットカード" >クレジットカード<br><br>番号<input type="text" name="カード番号" size="4">-
 			<input type="text" name="カード番号" size="4">-
 			<input type="text" name="カード番号" size="4">-
-			<input type="text" name="カード番号" size="4"></td>
-		</tr>
-		<tr>
-			<td><br><input type="radio" name="支払い"value="代引き" >代引き</td>
-		</tr>
-		<tr>
-			<td><br><input id="btn" type="submit" value="確認"></td>
-		</tr>
-
-
-
-		<!-- 			<div> -->
-		<!-- 		<select name="year"> -->
-		<?php optionLoop('1950', date('Y'));?>
-		<!-- 		</select> 年 <select name="year"> -->
-		<?php optionLoop('1', '12');?>
-		<!-- 		</select> 月 <select name="day"> -->
-		<?php optionLoop('1', '31');?>
-		<!-- 		</select> 日 -->
-		<!-- 	</div> -->
-
-
+			<input type="text" name="カード番号" size="4"><br><br><input type="radio" name="支払い"value="代引き" >代引き</td>
 
 
 	</table>
+	<input id="btn" type="submit" value="確認">
 	</form>
 	</div>
 </body>

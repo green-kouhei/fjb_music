@@ -6,19 +6,33 @@
 </head>
 <header >
 <h1 id = "head_h1">FJB Music</h1>
-
+<div id="navi">
+<table>
+<tr>
+			<td><img alt=""src="pic/login2.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/nyuuryoku.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/kakunin.png"class="main_img">
+			<img alt=""src="pic/yazirusi.png"class="main_yimg">
+			<img alt=""src="pic/kanryou.png"class="main_img"></td>
+		</tr>
+		</table>
+		</div>
 </header>
 
 <body bgcolor="yellow">
-<jsp:include page="test_pay001.jsp"></jsp:include>
-<div id="main">
+<div id="main1">
 	<form action="music_pay2.jsp">
 			<table id="tbl" border="1">
 				<tr>
-					<td>ユーザーID<input type="text" name="ユーザーID" size="12"></td>
+					<td id="in">ユーザーID　　　　<input type="text" name="ユーザーID" size="12"></td>
 				</tr>
 				<tr>
-					<td>パスワード<input type="text" name="パスワード" size="12"></td>
+					<td id="in">パスワード　　　　<input type="text" name="パスワード" size="12"></td>
+				</tr>
+				<tr>
+					<td id="in">パスワード再入力<input type="text" name="パスワード" size="12"></td>
 				</tr>
 			</table>
 
