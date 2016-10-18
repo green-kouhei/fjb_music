@@ -18,7 +18,7 @@
 			<td style="border-style: none;" border="0" width="20%"
 				bgcolor="#FF11AA">
 				<div width="20%">
-					<h3>詳細R</h3>
+					<h3>同一アーティストの作品</h3>
 					<table border="0" width="100%" style="table-layout: auto;">
 						<tr>
 							<td><img src="pic/wanima_art.jpg" align="left">
@@ -56,7 +56,7 @@
 			<td style="border-style: none;" border="0" width="60%"
 				bgcolor="#FFAACC">
 				<div width="60%">
-					<h3>メイン</h3>
+					<h3>商品詳細</h3>
 
 					<table border="0" width="100%" style="table-layout: auto;">
 
@@ -150,7 +150,7 @@
 					<td style="border-style: none;" border="0" width="20%"
 						bgcolor="#FF11AA">
 						<div width="20%">
-							<h3>詳細L</h3>
+							<h3>同一ジャンルの作品</h3>
 							<table border="0" width="100%" style="table-layout: auto;">
 								<tr>
 									<td><img alt="" src="pic/cd.jpg" id="kanren"><img

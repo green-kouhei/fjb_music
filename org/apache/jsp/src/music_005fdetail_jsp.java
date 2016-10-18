@@ -72,7 +72,7 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t<td style=\"border-style: none;\" border=\"0\" width=\"20%\"\r\n");
       out.write("\t\t\t\tbgcolor=\"#FF11AA\">\r\n");
       out.write("\t\t\t\t<div width=\"20%\">\r\n");
-      out.write("\t\t\t\t\t<h3>詳細R</h3>\r\n");
+      out.write("\t\t\t\t\t<h3>同一アーティストの作品</h3>\r\n");
       out.write("\t\t\t\t\t<table border=\"0\" width=\"100%\" style=\"table-layout: auto;\">\r\n");
       out.write("\t\t\t\t\t\t<tr>\r\n");
       out.write("\t\t\t\t\t\t\t<td><img src=\"pic/wanima_art.jpg\" align=\"left\">\r\n");
@@ -110,7 +110,7 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t<td style=\"border-style: none;\" border=\"0\" width=\"60%\"\r\n");
       out.write("\t\t\t\tbgcolor=\"#FFAACC\">\r\n");
       out.write("\t\t\t\t<div width=\"60%\">\r\n");
-      out.write("\t\t\t\t\t<h3>メイン</h3>\r\n");
+      out.write("\t\t\t\t\t<h3>商品詳細</h3>\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t\t<table border=\"0\" width=\"100%\" style=\"table-layout: auto;\">\r\n");
       out.write("\r\n");
@@ -204,7 +204,7 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t\t\t<td style=\"border-style: none;\" border=\"0\" width=\"20%\"\r\n");
       out.write("\t\t\t\t\t\tbgcolor=\"#FF11AA\">\r\n");
       out.write("\t\t\t\t\t\t<div width=\"20%\">\r\n");
-      out.write("\t\t\t\t\t\t\t<h3>詳細L</h3>\r\n");
+      out.write("\t\t\t\t\t\t\t<h3>同一ジャンルの作品</h3>\r\n");
       out.write("\t\t\t\t\t\t\t<table border=\"0\" width=\"100%\" style=\"table-layout: auto;\">\r\n");
       out.write("\t\t\t\t\t\t\t\t<tr>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<td><img alt=\"\" src=\"pic/cd.jpg\" id=\"kanren\"><img\r\n");
