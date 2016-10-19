@@ -6,8 +6,6 @@
 </head>
 <header>
 	<h1 id="head_h1">FJB Music</h1>
-
-
 </header>
 <script type="text/javascript">
 function disp(){
@@ -35,18 +33,18 @@ function disp(){
 
 <div id="main">
 <form action="music_pay3.jsp">
-	<table border="1" class="sample1">
+	<table border="1" class="sample2">
 		<tr>
-			<td class="left">氏名：</td>
-			<td class="rigth">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
+			<td align="center" class="left2">氏名</td>
+			<td class="rigth2">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
 		</tr>
 		<tr>
-			<td class="left">フリガナ</td>
-			<td class="rigth"><input type="text" name="姓" size="12"><input type="text" name="名" size="12"></td>
+			<td align="center" class="left2">フリガナ</td>
+			<td class="rigth2">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
 		</tr>
 		<tr>
-			<td class="left">生年月日</td>
-			<td class="rigth"><input type="text" name="年" size="4">年
+			<td align="center" class="left2">生年月日</td>
+			<td class="rigth2"><input type="text" name="年" size="4">年
 
 		<select onchange="disp()">
 		<%
@@ -71,20 +69,20 @@ function disp(){
 	</select>日</td>
 		</tr>
 		<tr>
-			<td class="left">メールアドレス</td>
-			<td class="rigth"><input type="text" name="アドレス" size="40"></td>
+			<td align="center" class="left2">メールアドレス</td>
+			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
 		</tr>
 		<tr>
-			<td class="left">確認</td>
-			<td class="rigth"><input type="text" name="アドレス" size="40"></td>
+			<td align="center" class="left2">確認</td>
+			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
 		</tr>
 		<tr>
-			<td class="left">郵便番号</td>
-			<td class="rigth"><input type="text" name="郵便" size="12"></td>
+			<td align="center" class="left2">郵便番号 </td>
+			<td  class="rigth2"><input type="text" name="郵便" size="12">　※半角8桁　例：12345678</td>
 		</tr>
 		<tr>
-			<td class="left">都道府県</td>
-			<td class="rigth"><select onchange="disp()">
+			<td align="center" class="left2">都道府県</td>
+			<td class="rigth2"><select onchange="disp()">
 		<%
 		String tlist[]=new String[47];
 		tlist[0]="北海道";
@@ -143,15 +141,15 @@ function disp(){
 	</select></td>
 		</tr>
 		<tr>
-			<td class="left">市区町村</td>
-			<td class="rigth"><input type="text" name="市区町村" size="12"></td>
+			<td align="center" class="left2">市区町村</td>
+			<td  class="rigth2"><input type="text" name="市区町村" size="40"></td>
 		</tr>
 		<tr>
-			<td class="left">番地・部屋番号</td>
-			<td class="rigth"><input type="text" name="番地" size="12"></td>
+			<td align="center" class="left2">番地・部屋番号</td>
+			<td class="rigth2"><input type="text" name="番地" size="40"></td>
 		</tr>
 		<tr>
-			<td class="last">お支払い方法<td class="rigth"><input type="radio" name="支払い"value="クレジットカード" >クレジットカード<br><br>番号<input type="text" name="カード番号" size="4">-
+			<td align="center" class="last2">お支払い方法<td class="rigth2"><input type="radio" name="支払い"value="クレジットカード" >クレジットカード<br><br>番号<input type="text" name="カード番号" size="4">-
 			<input type="text" name="カード番号" size="4">-
 			<input type="text" name="カード番号" size="4">-
 			<input type="text" name="カード番号" size="4"><br><br><input type="radio" name="支払い"value="代引き" >代引き</td>
