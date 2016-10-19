@@ -3,3 +3,6 @@
 body {
 	background-color: yellow;
 }
+#head_h1{
+	width : 150px;
+	border: solid 1px blue;
