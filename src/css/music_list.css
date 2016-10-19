@@ -1,0 +1,49 @@
+#cd_img{
+	width: 180px;
+	height: 180px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.syou{
+/* 	margin-right: 200px; */
+/* 	margin-top: 80px; */
+}
+
+#mei{
+	font-size: 40px;
+/* 	margin-right: auto; */
+}
+
+#sin{
+	font-size: 20px;
+}
+
+#kane{
+	font-size: 30px;
+}
+
+#cart_img{
+	width: 50px;
+	float: right;
+}
+
+#kaka{
+	float: right;
+}
+
+#na{
+	margin-left: 50px;
+	margin-right: 50px
+}
+
+#kanren{
+	width: 100px;
+	height: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#foot{
+	float: left;
+}

@@ -82,34 +82,34 @@
 
 						</tr>
 
-						<tr>
-							<td width="50%">
-								<!-- 						視聴場所 -->
-								<div id="na">
-									曲名1
-									<audio controls preload="auto" style="width: 200px;">
+<!-- 						<tr> -->
+<!-- 							<td width="50%"> -->
+<!-- 														視聴場所 -->
+<!-- 								<div id="na"> -->
+<!-- 									曲名1 -->
+<!-- 									<audio controls preload="auto" style="width: 200px;"> -->
 
-									</audio>
-								</div> <br>
-								<div id="na">
-									曲名2
-									<audio controls preload="auto" style="width: 200px;">
+<!-- 									</audio> -->
+<!-- 								</div> <br> -->
+<!-- 								<div id="na"> -->
+<!-- 									曲名2 -->
+<!-- 									<audio controls preload="auto" style="width: 200px;"> -->
 
-									</audio>
-								</div>
-							</td>
-							<td width="50%" bgcolor="#AA00FF">
-								<!-- 詳細入れる -->
-								<div class="syousai"
-									style="height: 200px;; width: 390px; overflow: auto;">
-									商品詳細
-									<!-- ここから -->
-									a aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br> a<br> a<br>
-									a<br> a<br> a<br> a<br> a<br> a<br>
-									a<br> a<br> a<br> a<br> a<br> a<br>
-									a<br> a<br> a<br>
-								</div>
-						</tr>
+<!-- 									</audio> -->
+<!-- 								</div> -->
+<!-- 							</td> -->
+<!-- 							<td width="50%" bgcolor="#AA00FF"> -->
+<!-- 								詳細入れる -->
+<!-- 								<div class="syousai" -->
+<!-- 									style="height: 200px;; width: 390px; overflow: auto;"> -->
+<!-- 									商品詳細 -->
+<!-- 									ここから -->
+<!-- 									a aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br> a<br> a<br> -->
+<!-- 									a<br> a<br> a<br> a<br> a<br> a<br> -->
+<!-- 									a<br> a<br> a<br> a<br> a<br> a<br> -->
+<!-- 									a<br> a<br> a<br> -->
+<!-- 								</div> -->
+<!-- 						</tr> -->
 					</table>
 
 					<!-- 3 -->
