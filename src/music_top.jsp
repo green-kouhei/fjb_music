@@ -51,42 +51,44 @@
 			</div>
 		</div>
 
-		<div>
-			<a href="music_detail.jsp"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover"></a>
-			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button"class="rollover"></a>
-			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-suffix"></a>
-			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade1"></a>
-			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade2"></a>
+<!-- 		<div> -->
+<!-- 			<a href="music_detail.jsp"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover"></a> -->
+<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button"class="rollover"></a> -->
+<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-suffix"></a> -->
+<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade1"></a> -->
+<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade2"></a> -->
 
-			<script src="jquery.easy-rollover.js"></script>
-			<script>
-				$(function() {
-					// 通常
-					$('.rollover').easyRollover();
+<!-- 			<script src="jquery.easy-rollover.js"></script> -->
+<!-- 			<script> -->
+<!--
+// 				$(function() {
+// 					// 通常
+// 					$('.rollover').easyRollover();
 
-					// サフィックス
-					$('.rollover-suffix').easyRollover({
-						suffix : '_off.',
-						suffix_replace : '_on.'
-					});
+// 					// サフィックス
+// 					$('.rollover-suffix').easyRollover({
+// 						suffix : '_off.',
+// 						suffix_replace : '_on.'
+// 					});
 
-					// 透過フェードするだけのロールオーバー
-					$('.rollover-fade1').easyRollover({
-						suffix : false,
-						transition : 'fade',
-						opacity : 0.2,
-						duration : 400
-					});
+// 					// 透過フェードするだけのロールオーバー
+// 					$('.rollover-fade1').easyRollover({
+// 						suffix : false,
+// 						transition : 'fade',
+// 						opacity : 0.2,
+// 						duration : 400
+// 					});
 
-					// フェードして切り替わるロールオーバー
-					$('.rollover-fade2').easyRollover({
-						transition : 'fade',
-						duration : 1000,
-						easing : 'swing'
-					});
-				});
-			</script>
-		</div>
+// 					// フェードして切り替わるロールオーバー
+// 					$('.rollover-fade2').easyRollover({
+// 						transition : 'fade',
+// 						duration : 1000,
+// 						easing : 'swing'
+// 					});
+// 				});
+ -->
+<!-- 			</script> -->
+<!-- 		</div> -->
 
 
 		<!-- ランキング -->
