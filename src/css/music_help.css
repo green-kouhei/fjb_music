@@ -1,0 +1,17 @@
+#box1-1{
+	width: 20%;
+	float:left;
+	overflow: hidden;
+}
+
+#box1-2{
+	width: 60%;
+	float:left;
+	overflow: hidden;
+}
+
+#box1-3{
+	width: 20%;
+	float:left;
+	overflow: hidden;
+}
