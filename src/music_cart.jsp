@@ -95,7 +95,7 @@
 	</div>
 
 
-	<footer> Copyright 船橋あいす工房,all rights reserved. </footer>
+	<footer> Copyright FJB music,all rights reserved. </footer>
 
 </body>
 </html>

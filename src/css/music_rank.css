@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+#mainBox { /* 親ボックス */
+	width: 800px;
+	margin: 0 auto;
+}
+
+#A { /* 親ボックス */
+	width: 660px;
+	margin-right: -20px;
+}
+
+#B { /* 親ボックス */
+	width: 660px;
+	margin-right: -20px;
+}
+
+#A .boxa1 { /* ランク */
+	background: #ff0000;
+	width: 20px;
+	text-align: center;
+	margin: 20px left;
+}
+
+#A .boxa2 { /* スライド1 */
+	border: 23px solid #000000;
+	width: 20px;
+	text-align: center;
+	margin: 10px center;
+}
+
+/* 今週の売り上げ */
+.rank_table {
+/* 	position: absolute; */
+/* 	width: 20px; */
+/* 	height: 20px; */
+/* 	margin: 0 auto; */
+}
+
+
+#B .boxb2 { /* スライド1 */
+	border: 2px solid #000000;
+	text-align: center;
+	margin: 10px center;
+}
+
+#div.memo { /* メモ */
+	background: #ffffff;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	margin: 10px auto;
+	position: absolute;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	display: inline; /*for ie*/
+	border: 2px solid #000000;
+	text-align: center;
+	margin: 10px auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: solid 1px;
+	padding: 0.5em;
+}
