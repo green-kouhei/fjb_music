@@ -24,7 +24,7 @@
 			<tr>
 				<td width="30%"><img src="pic/wanima_art.jpg" align="left"></td>
 				<td width="40%">WANIMA/JUICE UP‼</td>
-				<td align="right" width="20%">\100/\108</td>
+				<td width="20%">\100/\108</td>
 				<td width="5%"><select name="vol">
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -47,7 +47,7 @@
 			<tr>
 				<td width="30%"><img src="pic/wanima_art.jpg" align="left"></td>
 				<td width="40%">WANIMA/JUICE UP‼</td>
-				<td align="right" width="20%">\100/\108</td>
+				<td width="20%">\100/\108</td>
 				<td width="5%"><select name="vol">
 						<option value="1">1</option>
 						<option value="2">2</option>
@@ -93,6 +93,9 @@
 
 		</table>
 	</div>
+
+
+	<footer> Copyright FJB music,all rights reserved. </footer>
 
 </body>
 </html>

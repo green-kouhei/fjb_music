@@ -31,7 +31,7 @@ function disp(){
 		</table>
 		</div>
 
-<div id="main">
+<div id="main2">
 <form action="music_pay3.jsp">
 	<table border="1" class="sample2">
 		<tr>
@@ -156,7 +156,7 @@ function disp(){
 
 
 	</table>
-	<input id="btn" type="submit" value="確認">
+	<input id="kakunin" type="submit" value="確認">
 	</form>
 	</div>
 </body>

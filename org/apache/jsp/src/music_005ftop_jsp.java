@@ -85,7 +85,7 @@ public final class music_005ftop_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\t\t\t<div class=\"boxa1\">\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t<font color=\"#0000ff\"><center>\r\n");
-      out.write("\t\t\t\t\t\t<h1>最近のヘビロテ！</h1>\r\n");
+      out.write("\t\t\t\t\t\t<h1>店長のお気に入り!!</h1>\r\n");
       out.write("\t\t\t\t\t</center></font>\r\n");
       out.write("\r\n");
       out.write("\r\n");
@@ -155,7 +155,7 @@ public final class music_005ftop_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\r\n");
       out.write("\t\t\t\t<td style=\"border-style: none;\" border=\"1\">\r\n");
       out.write("\t\t\t\t\t<div width=\"100%\">\r\n");
-      out.write("\t\t\t\t\t\t<h3>今週の売り上げランキング1</h3>\r\n");
+      out.write("\t\t\t\t\t\t<h3>デイリーランキング</h3>\r\n");
       out.write("\t\t\t\t\t\t<table border=\"1\" width=\"80%\" style=\"table-layout: auto;\">\r\n");
       out.write("\t\t\t\t\t\t\t<dl>\r\n");
       out.write("\r\n");
@@ -209,7 +209,7 @@ public final class music_005ftop_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\r\n");
       out.write("\t\t\t\t<td style=\"border-style: none;\" border=\"1\">\r\n");
       out.write("\t\t\t\t\t<div width=\"100%\">\r\n");
-      out.write("\t\t\t\t\t\t<h3>今週の売り上げランキング2</h3>\r\n");
+      out.write("\t\t\t\t\t\t<h3>週間ランキング</h3>\r\n");
       out.write("\t\t\t\t\t\t<table border=\"1\" width=\"80%\" style=\"table-layout: auto;\">\r\n");
       out.write("\t\t\t\t\t\t\t<dl>\r\n");
       out.write("\t\t\t\t\t\t\t\t<!-- ここから -->\r\n");
@@ -261,7 +261,7 @@ public final class music_005ftop_jsp extends org.apache.jasper.runtime.HttpJspBa
       out.write("\r\n");
       out.write("\t\t\t\t<td style=\"border-style: none;\" border=\"1\">\r\n");
       out.write("\t\t\t\t\t<div width=\"100%\">\r\n");
-      out.write("\t\t\t\t\t\t<h3>今週の売り上げランキング3</h3>\r\n");
+      out.write("\t\t\t\t\t\t<h3>総合ランキング</h3>\r\n");
       out.write("\t\t\t\t\t\t<table border=\"1\" width=\"80%\" style=\"table-layout: auto;\">\r\n");
       out.write("\t\t\t\t\t\t\t<dl>\r\n");
       out.write("\t\t\t\t\t\t\t\t<!-- ここから -->\r\n");
