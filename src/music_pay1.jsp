@@ -24,23 +24,29 @@
 <body bgcolor="yellow">
 <div id="main1">
 	<form action="music_pay2.jsp">
-			<table id="tbl" border="1">
-				<tr>
-					<td id="in">ユーザーID　　　　<input type="text" name="ユーザーID" size="12"></td>
-				</tr>
-				<tr>
-					<td id="in">パスワード　　　　<input type="text" name="パスワード" size="12"></td>
-				</tr>
-				<tr>
-					<td id="in">パスワード再入力<input type="text" name="パスワード" size="12"></td>
-				</tr>
-			</table>
+	<div id ="login_title"><font color="red" size =5px>【ログインして購入】</font><br>アカウントをお持ちの方はこちら</div>
+	<table class="login">
+					<tr>
+						<th>ユーザID</th>
+						<td><input type="text" name="user_id" value="" size="24">
+						</td>
+					</tr>
+					<tr>
+						<th>パスワード</th>
+						<td><input type="password" name="password" value="" size="24">
+						</td>
+					</tr>
+	</table>
+	<input id="login"type="submit" value="ログイン">
 
-	<div id="btnbox">
-			<input id="btn" type="submit" value="ログイン"> <input id="btn" type="submit"
-				value="ゲストで購入"></div>
+	<table class="login2">
+	<tr>
+	<td><input type="submit" id="gust"name="gust"value="ゲストで購入">
+	<td><input type="submit" id="sinki"name="sinki"value="新規会員登録">
+	</tr>
+	</table>
 
-	</form>
 	</div>
+	</form>
 </body>
 </html>

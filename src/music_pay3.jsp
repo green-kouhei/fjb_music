@@ -22,8 +22,8 @@
 		</tr>
 		</table>
 		</div>
-<div id="main2">
-<form action="music_pay3.jsp">
+<div id="main3">
+<form action="music_pay4.jsp">
 <table  class="title1">
 <tr>
 <td align="center" ><font size ="6">購入商品</font></td>
@@ -47,28 +47,18 @@
 			<tr>
 				<td align="center"width="30%"><img src="pic/wanima_art.jpg" align="left"></td>
 				<td align="center"width="40%">WANIMA/JUICE UP‼</td>
-				<td align="center"width="20%">\100/\108</td>
+				<td align="right"width="20%">\100/\108</td>
 				<td align="center"width="5%">1
 
 				</td>
 
 			</tr>
-
 			<tr>
 				<td align="center"width="30%"><img src="pic/wanima_art.jpg" align="left"></td>
 				<td align="center"width="40%">WANIMA/JUICE UP‼</td>
-				<td align="center"width="20%">\100/\108</td>
+				<td align="right"width="20%">\100/\108</td>
 				<td align="center"width="5%">1
-
-
-
-
-
-
 			</tr>
-
-
-
 
 		</table>
 <table  class="title2">
@@ -110,22 +100,17 @@
 
 	<table border="1" class="kakutei">
 	<tr>
-	<td>配送料・手数料</td><td>\540</td>
+	<td align="center">配送料・手数料</td><td align="right">\540</td>
 	</tr>
 	<tr>
-	<td>商品小計</td><td>\216</td>
+	<td align="center">商品小計</td><td align="right">\216</td>
 	</tr>
 	<tr>
-	<td>お支払い合計</td><td>\756</td>
+	<td align="center">お支払い合計</td><td align="right">\756</td>
 	</tr>
-	<input type="submit" name="kakutei"value="注文を確定">
-
-
 	</table>
-
+	<input id="kakutei" type="submit" name="kakutei"value="注文を確定">
 	</div>
-
-
 	</form>
 	</div>
 </body>
