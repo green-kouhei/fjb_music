@@ -31,7 +31,7 @@
 			<div class="boxa1">
 
 				<font color="#0000ff"><center>
-						<h1>最近のヘビロテ！</h1>
+						<h1>店長のお気に入り!!</h1>
 					</center></font>
 
 
@@ -101,7 +101,7 @@
 
 				<td style="border-style: none;" border="1">
 					<div width="100%">
-						<h3>今週の売り上げランキング1</h3>
+						<h3>デイリーランキング</h3>
 						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
 
@@ -155,7 +155,7 @@
 
 				<td style="border-style: none;" border="1">
 					<div width="100%">
-						<h3>今週の売り上げランキング2</h3>
+						<h3>週間ランキング</h3>
 						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
 								<!-- ここから -->
@@ -207,7 +207,7 @@
 
 				<td style="border-style: none;" border="1">
 					<div width="100%">
-						<h3>今週の売り上げランキング3</h3>
+						<h3>総合ランキング</h3>
 						<table border="1" width="80%" style="table-layout: auto;">
 							<dl>
 								<!-- ここから -->

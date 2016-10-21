@@ -83,7 +83,7 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t</table>\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\r\n");
-      out.write("<div id=\"main\">\r\n");
+      out.write("<div id=\"main2\">\r\n");
       out.write("<form action=\"music_pay3.jsp\">\r\n");
       out.write("\t<table border=\"1\" class=\"sample2\">\r\n");
       out.write("\t\t<tr>\r\n");
@@ -226,7 +226,7 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
-      out.write("\t<input id=\"btn\" type=\"submit\" value=\"確認\">\r\n");
+      out.write("\t<input id=\"kakunin\" type=\"submit\" value=\"確認\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");
       out.write("</body>\r\n");

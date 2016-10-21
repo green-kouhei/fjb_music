@@ -148,9 +148,6 @@ public final class music_005fcart_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t</table>\r\n");
       out.write("\t</div>\r\n");
       out.write("\r\n");
-      out.write("\r\n");
-      out.write("\t<footer> Copyright 船橋あいす工房,all rights reserved. </footer>\r\n");
-      out.write("\r\n");
       out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
