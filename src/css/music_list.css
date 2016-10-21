@@ -1,8 +1,7 @@
-#cd_img{
-	width: 180px;
-	height: 180px;
-	margin-left: 25%;
-	margin-right: 25%;
+.cd_img{
+	width: 100px;
+	height: 100px;
+
 }
 
 .syou{
@@ -23,10 +22,6 @@
 	font-size: 30px;
 }
 
-#cart_img{
-	width: 50px;
-	float: right;
-}
 
 #kaka{
 	float: right;
