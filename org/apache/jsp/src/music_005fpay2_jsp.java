@@ -58,8 +58,6 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("</head>\r\n");
       out.write("<header>\r\n");
       out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
-      out.write("\r\n");
-      out.write("\r\n");
       out.write("</header>\r\n");
       out.write("<script type=\"text/javascript\">\r\n");
       out.write("function disp(){\r\n");

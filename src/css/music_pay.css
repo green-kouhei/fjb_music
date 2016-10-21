@@ -12,6 +12,17 @@
 	border: solid 1px blue;
 	padding-left: 0px;
 }
+#main2{
+	background-color : #ffffff;
+	width : 700px;
+	height : 750px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : auto;
+	border: solid 1px blue;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 table.sample2{
 	border: solid 1px black;
 	border-collapse: collapse;
@@ -43,7 +54,7 @@ td.left2 {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 
 	}
@@ -70,6 +81,23 @@ td.left3 {
 	margin-right : auto;
 /* 	border: solid 1px red; */
 
+}
+table.title1{
+	margin-top: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.title2{
+	margin-top: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.kakutei{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #nyuuryoku{
 	margin-left : 100px;
