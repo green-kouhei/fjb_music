@@ -94,8 +94,5 @@
 		</table>
 	</div>
 
-
-	<footer> Copyright 船橋あいす工房,all rights reserved. </footer>
-
 </body>
 </html>

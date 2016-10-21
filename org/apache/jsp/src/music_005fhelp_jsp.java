@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class music_005flogin_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class music_005fhelp_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -54,33 +54,37 @@ public final class music_005flogin_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
-      out.write("<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"css/music_help.css\">\r\n");
       out.write("</head>\r\n");
-      out.write("<header>\r\n");
-      out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
-      out.write("\t<body>\r\n");
-      out.write("\t\t<hr>\r\n");
-      out.write("\t\t<div align=\"center\">\r\n");
-      out.write("\t\t\t<link rel=\"stylesheet\" href=\"css/music_login.css\">\r\n");
-      out.write("\t\t\t<table border=\"0\">\r\n");
-      out.write("\t\t\t\t<form action=\"list.html\" method=\"get\">\r\n");
-      out.write("\t\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t\t<th>ユーザID</th>\r\n");
-      out.write("\t\t\t\t\t\t<td><input type=\"text\" name=\"user_id\" value=\"\" size=\"24\">\r\n");
-      out.write("\t\t\t\t\t\t</td>\r\n");
-      out.write("\t\t\t\t\t</tr>\r\n");
-      out.write("\t\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t\t<th>パスワード</th>\r\n");
-      out.write("\t\t\t\t\t\t<td><input type=\"password\" name=\"password\" value=\"\" size=\"24\">\r\n");
-      out.write("\t\t\t\t\t\t</td>\r\n");
-      out.write("\t\t\t\t\t</tr>\r\n");
-      out.write("\t\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t\t<td colspan=\"2\"><input type=\"submit\" value=\"ログイン\"></td>\r\n");
-      out.write("\t\t\t\t\t</tr>\r\n");
-      out.write("\t\t\t\t</form>\r\n");
+      out.write("<body>\r\n");
+      out.write("\t");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "test001.jsp", out, false);
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t<!-- ---画面全体のテーブル--- -->\r\n");
+      out.write("\t<div id=\"box1\">\r\n");
+      out.write("\t\t<!-- ---画面左空白部分--- -->\r\n");
+      out.write("\t\t<div id=\"box1-1\">box1-1</div>\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t\t<!-- ---お問い合わせ画面(中心部分開始)--- -->\r\n");
+      out.write("\t\t<div id=\"box1-2\">box1-2\r\n");
+      out.write("\t\t\t<table>\r\n");
+      out.write("\t\t\t\t<tr></tr>\r\n");
+      out.write("\t\t\t\t<td></td>\r\n");
+      out.write("\t\t\t\t<td></td>\r\n");
+      out.write("\t\t\t\t<tr></tr>\r\n");
       out.write("\t\t\t</table>\r\n");
       out.write("\t\t</div>\r\n");
-      out.write("\t</body>\r\n");
+      out.write("\t\t<!-- ---お問い合わせ画面(中心部分終了)--- -->\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t\t<!-- ---画面右空白部分--- -->\r\n");
+      out.write("\t\t<div id=\"box1-3\">box1-3</div>\r\n");
+      out.write("\t</div>\r\n");
+      out.write("</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
