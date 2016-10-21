@@ -56,59 +56,34 @@
 			<td style="border-style: none;" border="0" width="60%"
 				bgcolor="#FFAACC">
 				<div width="60%">
-					<h3>商品詳細</h3>
+					<h3>一覧</h3>
 
-					<table border="0" width="100%" style="table-layout: auto;">
-
-						<tr>
-							<td width="50%"><img alt="" src="pic/cd.jpg" id="cd_img">
-							</td>
-							<td width="50%">
-								<div class="syou">
-									<div id="mei">商品名</div>
-
-									<br> <br>
-
-									<div id="sin">歌手</div>
-									<br> <br> <span id="kane"> 金額 <u>\3000</u>
-
-									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br>
-									<br>
-									<div id="kaka">カートへ</div>
-
-								</div>
-
-							</td>
-
-						</tr>
+					<table border="1" width="100%"  style="table-layout: auto;">
 
 						<tr>
-							<td width="50%">
-								<!-- 						視聴場所 -->
-								<div id="na">
-									曲名1
-									<audio controls preload="auto" style="width: 200px;">
+							<td width="50%" ><img alt="" src="pic/cd.jpg" class="cd_img">
+								歌手
+								<br>
+								<u>\3000</u>
+								</td>
+								<td width="50%" ><img alt="" src="pic/cd.jpg" class="cd_img">
+								歌手
+								<br>
+								<u>\3000</u>
+<!-- 								<div class="syou"> -->
+<!-- 									<div id="mei">商品名</div> -->
 
-									</audio>
-								</div> <br>
-								<div id="na">
-									曲名2
-									<audio controls preload="auto" style="width: 200px;">
+<!-- 									<br> <br> -->
 
-									</audio>
-								</div>
+<!-- 									<div id="sin">歌手</div> -->
+<!-- 									<br> <br> <span id="kane"> 金額 <u>\3000</u> -->
+
+<!-- 									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br> -->
+<!-- 									<br> -->
+<!-- 									<div id="kaka">カートへ</div> -->
+									</td>
+								<td width="50%">
 							</td>
-							<td width="50%" bgcolor="#AA00FF">
-								<!-- 詳細入れる -->
-								<div class="syousai"
-									style="height: 200px;; width: 390px; overflow: auto;">
-									商品詳細
-									<!-- ここから -->
-									a aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br> a<br> a<br>
-									a<br> a<br> a<br> a<br> a<br> a<br>
-									a<br> a<br> a<br> a<br> a<br> a<br>
-									a<br> a<br> a<br>
-								</div>
 						</tr>
 					</table>
 
