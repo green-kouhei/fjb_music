@@ -41,26 +41,29 @@
 			<div class="boxa2" align="center">
 				<ul class="bxslider">
 					<li><a href="music_detail.jsp"><img src="pic/10feet.jpg"></a></li>
-					<li><a href="music_detail.jsp"><img src="pic/ken_yokoyama.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img
+							src="pic/ken_yokoyama.jpg"></a></li>
 					<li><a href="music_detail.jsp"><img src="pic/mwam.jpg"></a></li>
 					<li><a href="music_detail.jsp"><img src="pic/wanima.jpg"></a></li>
-					<li><a href="music_detail.jsp"><img src="pic/xmas_eileen.jpg"></a></li>
-					<li><a href="music_detail.jsp"><img src="pic/hi-standard.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img
+							src="pic/xmas_eileen.jpg"></a></li>
+					<li><a href="music_detail.jsp"><img
+							src="pic/hi-standard.jpg"></a></li>
 				</ul>
 
 			</div>
 		</div>
 
-<!-- 		<div> -->
-<!-- 			<a href="music_detail.jsp"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover"></a> -->
-<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button"class="rollover"></a> -->
-<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-suffix"></a> -->
-<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade1"></a> -->
-<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade2"></a> -->
+		<!-- 		<div> -->
+		<!-- 			<a href="music_detail.jsp"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover"></a> -->
+		<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button"class="rollover"></a> -->
+		<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-suffix"></a> -->
+		<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade1"></a> -->
+		<!-- 			<a href="#"><img src="pic/login.png" width="180" height="57" alt="button" class="rollover-fade2"></a> -->
 
-<!-- 			<script src="jquery.easy-rollover.js"></script> -->
-<!-- 			<script> -->
-<!--
+		<!-- 			<script src="jquery.easy-rollover.js"></script> -->
+		<!-- 			<script> -->
+		<!--
 // 				$(function() {
 // 					// 通常
 // 					$('.rollover').easyRollover();
@@ -87,8 +90,8 @@
 // 					});
 // 				});
  -->
-<!-- 			</script> -->
-<!-- 		</div> -->
+		<!-- 			</script> -->
+		<!-- 		</div> -->
 
 
 		<!-- ランキング -->

@@ -15,7 +15,7 @@
 
 <table  class="title2">
 <tr>
-<td align="center" ><font size ="6">変更内容確認</font></td>
+<td align="center" ><font size ="6">会員情報確認</font></td>
 </tr>
 </table>
 <table border="1" class="sample3">
@@ -34,6 +34,10 @@
 		<tr>
 			<td align="center" class="left3">メールアドレス</td>
 			<td class="rigth3">x15g000@chiba-fjb.ac.jp</td>
+		</tr>
+		<tr>
+			<td align="center" class="left3">パスワード</td>
+			<td class="rigth3">●●●●●●●●</td>
 		</tr>
 			<td align="center" class="left3">郵便番号 </td>
 			<td class="rigth3">12345678</td>

@@ -66,7 +66,7 @@ td.left2 {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 
 	}
@@ -119,6 +119,7 @@ table.title2{
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	height: 20px;
 }
 table.kakutei{
 	width: 300px;

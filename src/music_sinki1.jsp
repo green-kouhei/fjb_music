@@ -20,7 +20,7 @@ function disp(){
 <form action="music_sinki2.jsp">
 <table  class="title1">
 <tr>
-<td align="center" ><font size ="6">変更したい情報のみ入力してください</font></td>
+<td align="center" ><font size ="6">情報を入力してください</font></td>
 </tr>
 </table>
 	<table border="1" class="sample2">
@@ -63,8 +63,16 @@ function disp(){
 			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
 		</tr>
 		<tr>
-			<td align="center" class="left2">確認</td>
+			<td align="center" class="left2">メールアドレス確認</td>
 			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
+		</tr>
+		<tr>
+			<td align="center" class="left2">パスワード</td>
+			<td class="rigth2"><input type="text" name="アドレス" size="8">※半角英数8桁で入力してください</td>
+		</tr>
+		<tr>
+			<td align="center" class="left2">パスワード確認</td>
+			<td class="rigth2"><input type="text" name="アドレス" size="8"></td>
 		</tr>
 		<tr>
 			<td align="center" class="left2">郵便番号 </td>
