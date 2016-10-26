@@ -98,7 +98,7 @@ public final class music_005fsinki2_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\r\n");
       out.write("\t</table>\r\n");
       out.write("\r\n");
-      out.write("\t<input id=\"kakutei\" type=\"submit\" name=\"kakutei\"value=\"変更を確定しTOPへ\">\r\n");
+      out.write("\t<input id=\"kakutei\" type=\"submit\" name=\"kakutei\"value=\"確定してTOPへ\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");
       out.write("</body>\r\n");
