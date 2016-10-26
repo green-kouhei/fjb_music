@@ -1,20 +1,9 @@
 #head_h1{
 	width : 150px;
-/* 	border: solid 1px blue; */
-	margin-left: 3px;
-	margin-top: 32px;
+	border: solid 1px blue;
 }
 
-#main1{
-	background-color : #ffffff;
-	width : 700px;
-	height : 750px;
-	margin-left : auto;
-	margin-right : auto;
-	margin-bottom : auto;
-	border: solid 1px blue;
-	padding-left: 0px;
-}
+
 #main2{
 	background-color : #ffffff;
 	width : 700px;
@@ -28,61 +17,15 @@
 #main3{
 	background-color : #ffffff;
 	width : 700px;
-	height : 900px;
+	height : 600px;
 	margin-left : auto;
 	margin-right : auto;
-	margin-bottom : auto;
+	margin-top : 30p;
 	border: solid 1px blue;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-#main4{
-	background-color : #ffffff;
-	width : 700px;
-	height : 400px;
-	margin-left : auto;
-	margin-right : auto;
-	margin-bottom : auto;
-	border: solid 1px blue;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-#login_title{
-	margin-top: 30px;
-/* 	margin-left: 200px; */
-	margin-right: auto;
-}
-#login{
-	width: 100px;
-	height: 25px;
-	margin-top: 3px;
-	margin-left: 300px;
-	margin-right: auto;
-}
-table.login{
-	margin-top: 10px;
-	width : 400px;
-	margin-left : auto;
-	margin-right : auto;
-	margin-bottom : auto;
-	border-color: red;
-}
-table.login2{
-	width: 500px;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#gust{
-	width: 250px;
-	height: 150px;
-	background-color: skyblue;
-}
-#sinki{
-	width: 250px;
-	height: 150px;
-	background-color: 	#32CD32;
-}
+
 table.sample2{
 	border: solid 1px black;
 	border-collapse: collapse;
@@ -123,7 +66,7 @@ td.left2 {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 
 	}
@@ -151,7 +94,12 @@ td.left3 {
 	height: 40px;
 	background-color: 	#66cdaa;
 /* 	border: solid 1px red; */
-
+}
+table.title1{
+	margin-top: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #navi{
 	width : 630px;
@@ -171,6 +119,7 @@ table.title2{
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	height: 20px;
 }
 table.kakutei{
 	width: 300px;

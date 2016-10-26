@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class music_005fhenkou1_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -54,10 +54,10 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html>\r\n");
       out.write("<head>\r\n");
-      out.write("<link rel=\"stylesheet\" href=\"css/music_pay.css\">\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"css/music_henkou.css\">\r\n");
       out.write("</head>\r\n");
       out.write("<header>\r\n");
-      out.write("\t<h1 id=\"head_h1\"><u>FJB Music</u></h1>\r\n");
+      out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
       out.write("</header>\r\n");
       out.write("<script type=\"text/javascript\">\r\n");
       out.write("function disp(){\r\n");
@@ -68,70 +68,15 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\r\n");
       out.write("</script>\r\n");
       out.write("<body bgcolor=\"yellow\">\r\n");
-      out.write("\r\n");
-      out.write("<div id=\"navi\">\r\n");
-      out.write("<table>\r\n");
-      out.write("<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\"><img alt=\"\"src=\"pic/login.png\"class=\"main_img\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/nyuuryoku2.png\"class=\"main_img\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/kakunin.png\"class=\"main_img\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
-      out.write("\t\t\t<img alt=\"\"src=\"pic/kanryou.png\"class=\"main_img\"></td>\r\n");
-      out.write("\t\t</tr>\r\n");
-      out.write("\t\t</table>\r\n");
-      out.write("\t\t</div>\r\n");
-      out.write("\r\n");
       out.write("<div id=\"main2\">\r\n");
-      out.write("<form action=\"music_pay3.jsp\">\r\n");
+      out.write("<form action=\"music_henkou2.jsp\">\r\n");
+      out.write("<table  class=\"title1\">\r\n");
+      out.write("<tr>\r\n");
+      out.write("<td align=\"center\" ><font size =\"6\">変更したい情報のみ入力してください</font></td>\r\n");
+      out.write("</tr>\r\n");
+      out.write("</table>\r\n");
       out.write("\t<table border=\"1\" class=\"sample2\">\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"left2\">氏名</td>\r\n");
-      out.write("\t\t\t<td class=\"rigth2\">姓<input type=\"text\" name=\"姓\" size=\"12\">名<input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
-      out.write("\t\t</tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"left2\">フリガナ</td>\r\n");
-      out.write("\t\t\t<td class=\"rigth2\">姓<input type=\"text\" name=\"姓\" size=\"12\">名<input type=\"text\" name=\"名\" size=\"12\"></td>\r\n");
-      out.write("\t\t</tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"left2\">生年月日</td>\r\n");
-      out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"年\" size=\"4\">年\r\n");
       out.write("\r\n");
-      out.write("\t\t<select onchange=\"disp()\">\r\n");
-      out.write("\t\t");
-
-			for (int i = 1; i <= 12; i++) {
-		
-      out.write("\r\n");
-      out.write("\t\t<option>\r\n");
-      out.write("\t\t\t");
-      out.print(i);
-      out.write("</option>\r\n");
-      out.write("\t\t");
-
-			}
-		
-      out.write("\r\n");
-      out.write("\t</select>月\r\n");
-      out.write("\t<select onchange=\"disp()\">\r\n");
-      out.write("\t");
-
-			for (int i = 1; i <= 31; i++) {
-		
-      out.write("\r\n");
-      out.write("\t\t<option>\r\n");
-      out.write("\t\t\t");
-      out.print(i);
-      out.write("</option>\r\n");
-      out.write("\t\t");
-
-			}
-		
-      out.write("\r\n");
-      out.write("\r\n");
-      out.write("\t</select>日</td>\r\n");
-      out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
       out.write("\t\t\t<td align=\"center\" class=\"left2\">メールアドレス</td>\r\n");
       out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
@@ -218,12 +163,6 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t\t<td align=\"center\" class=\"left2\">番地・部屋番号</td>\r\n");
       out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"番地\" size=\"40\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"last2\">お支払い方法<td class=\"rigth2\"><input type=\"radio\" name=\"支払い\"value=\"クレジットカード\" >クレジットカード<br><br>番号<input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
-      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
-      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\">-\r\n");
-      out.write("\t\t\t<input type=\"text\" name=\"カード番号\" size=\"4\"><br><br><input type=\"radio\" name=\"支払い\"value=\"代引き\" >代引き</td>\r\n");
-      out.write("\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
       out.write("\t<input id=\"kakunin\" type=\"submit\" value=\"確認\">\r\n");

@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/music_pay.css">
+<link rel="stylesheet" href="css/music_henkou.css">
 </head>
 <header>
-	<h1 id="head_h1"><u>FJB Music</u></h1>
+	<h1 id="head_h1">FJB Music</h1>
 </header>
 <script type="text/javascript">
 function disp(){
@@ -16,58 +16,15 @@ function disp(){
 
 </script>
 <body bgcolor="yellow">
-<%-- <jsp:include page="test_pay001.jsp"></jsp:include> --%>
-<div id="navi">
-<table>
-<tr>
-			<td align="center"><img alt=""src="pic/login.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/nyuuryoku2.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/kakunin.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/kanryou.png"class="main_img"></td>
-		</tr>
-		</table>
-		</div>
-
 <div id="main2">
-<form action="music_pay3.jsp">
+<form action="music_henkou2.jsp">
+<table  class="title1">
+<tr>
+<td align="center" ><font size ="6">変更したい情報のみ入力してください</font></td>
+</tr>
+</table>
 	<table border="1" class="sample2">
-		<tr>
-			<td align="center" class="left2">氏名</td>
-			<td class="rigth2">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
-		</tr>
-		<tr>
-			<td align="center" class="left2">フリガナ</td>
-			<td class="rigth2">姓<input type="text" name="姓" size="12">名<input type="text" name="名" size="12"></td>
-		</tr>
-		<tr>
-			<td align="center" class="left2">生年月日</td>
-			<td class="rigth2"><input type="text" name="年" size="4">年
 
-		<select onchange="disp()">
-		<%
-			for (int i = 1; i <= 12; i++) {
-		%>
-		<option>
-			<%=i%></option>
-		<%
-			}
-		%>
-	</select>月
-	<select onchange="disp()">
-	<%
-			for (int i = 1; i <= 31; i++) {
-		%>
-		<option>
-			<%=i%></option>
-		<%
-			}
-		%>
-
-	</select>日</td>
-		</tr>
 		<tr>
 			<td align="center" class="left2">メールアドレス</td>
 			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
@@ -148,12 +105,6 @@ function disp(){
 			<td align="center" class="left2">番地・部屋番号</td>
 			<td class="rigth2"><input type="text" name="番地" size="40"></td>
 		</tr>
-		<tr>
-			<td align="center" class="last2">お支払い方法<td class="rigth2"><input type="radio" name="支払い"value="クレジットカード" >クレジットカード<br><br>番号<input type="text" name="カード番号" size="4">-
-			<input type="text" name="カード番号" size="4">-
-			<input type="text" name="カード番号" size="4">-
-			<input type="text" name="カード番号" size="4"><br><br><input type="radio" name="支払い"value="代引き" >代引き</td>
-
 
 	</table>
 	<input id="kakunin" type="submit" value="確認">

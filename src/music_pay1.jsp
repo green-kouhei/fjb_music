@@ -5,11 +5,11 @@
 <link rel="stylesheet" href="css/music_pay.css">
 </head>
 <header >
-<h1 id = "head_h1">FJB Music</h1>
+<h1 id = "head_h1"><u>FJB Music</u></h1>
 <div id="navi">
 <table>
 <tr>
-			<td><img alt=""src="pic/login2.png"class="main_img">
+			<td align="center"><img alt=""src="pic/login2.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">
 			<img alt=""src="pic/nyuuryoku.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">
@@ -24,23 +24,29 @@
 <body bgcolor="yellow">
 <div id="main1">
 	<form action="music_pay2.jsp">
-			<table id="tbl" border="1">
-				<tr>
-					<td id="in">ユーザーID　　　　<input type="text" name="ユーザーID" size="12"></td>
-				</tr>
-				<tr>
-					<td id="in">パスワード　　　　<input type="text" name="パスワード" size="12"></td>
-				</tr>
-				<tr>
-					<td id="in">パスワード再入力<input type="text" name="パスワード" size="12"></td>
-				</tr>
-			</table>
+	<div id ="login_title"><font color="red" size =5px><center>【ログインして購入】</center></font><br><center>アカウントをお持ちの方はこちら</center></div>
+	<table class="login" height="100px">
+					<tr>
+						<th>ユーザID</th>
+						<td><input type="text" name="user_id" value="" size="24">
+						</td>
+					</tr>
+					<tr>
+						<th>パスワード</th>
+						<td><input type="password" name="password" value="" size="24">
+						</td>
+					</tr>
+	</table>
+	<input id="login"type="submit" value="ログイン">
 
-	<div id="btnbox">
-			<input id="btn" type="submit" value="ログイン"> <input id="btn" type="submit"
-				value="ゲストで購入"></div>
+	<table class="login2">
+	<tr>
+	<td><input type="submit" id="gust"name="gust"value="ゲストで購入">
+	<td><input type="submit" id="sinki"name="sinki"value="新規会員登録">
+	</tr>
+	</table>
 
-	</form>
 	</div>
+	</form>
 </body>
 </html>

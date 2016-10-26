@@ -1,0 +1,23 @@
+#box1{
+	background-color: lightgreen;
+	width: 100%;
+	font-size: 32px;
+	text-align: center;
+}
+
+#box2-1{
+	width: 50%;
+}
+
+#box2-2{
+	width: 50%;
+}
+
+#box3{
+	width: 100%;
+	text-align: center;
+}
+#help{
+	margin-left: auto;
+	margin-right: auto;
+}
