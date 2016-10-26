@@ -63,7 +63,7 @@ public final class music_005fsinki2_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("<body bgcolor=\"yellow\">\r\n");
       out.write("\r\n");
       out.write("<div id=\"main3\">\r\n");
-      out.write("<form action=\"music_pay4.jsp\">\r\n");
+      out.write("<form action=\"music_top.jsp\">\r\n");
       out.write("\r\n");
       out.write("<table  class=\"title2\">\r\n");
       out.write("<tr>\r\n");
@@ -94,15 +94,11 @@ public final class music_005fsinki2_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t<td align=\"center\" class=\"left3\">住所（お届け先）</td>\r\n");
       out.write("\t\t\t<td class=\"rigth3\">千葉県船橋市船橋123</td>\r\n");
       out.write("\t\t</tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"last3\">お支払い方法</td>\r\n");
-      out.write("\t\t\t<td class=\"rigth3\">クレジットカード<br>\r\n");
-      out.write("\t\t\t番号：xxxx-xxxx-xxxx-1234</td>\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
       out.write("\r\n");
-      out.write("\t<input id=\"kakutei\" type=\"submit\" name=\"kakutei\"value=\"確定\">\r\n");
+      out.write("\t<input id=\"kakutei\" type=\"submit\" name=\"kakutei\"value=\"変更を確定しTOPへ\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");
       out.write("</body>\r\n");

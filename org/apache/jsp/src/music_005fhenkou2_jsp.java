@@ -94,11 +94,6 @@ public final class music_005fhenkou2_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t\t\t<td align=\"center\" class=\"left3\">住所（お届け先）</td>\r\n");
       out.write("\t\t\t<td class=\"rigth3\">千葉県船橋市船橋123</td>\r\n");
       out.write("\t\t</tr>\r\n");
-      out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"last3\">お支払い方法</td>\r\n");
-      out.write("\t\t\t<td class=\"rigth3\">クレジットカード<br>\r\n");
-      out.write("\t\t\t番号：xxxx-xxxx-xxxx-1234</td>\r\n");
-      out.write("\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
       out.write("\r\n");
