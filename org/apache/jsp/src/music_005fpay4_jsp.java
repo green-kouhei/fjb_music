@@ -57,13 +57,14 @@ public final class music_005fpay4_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<link rel=\"stylesheet\" href=\"css/music_pay.css\">\r\n");
       out.write("</head>\r\n");
       out.write("<header>\r\n");
-      out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
+      out.write("\t<h1 id=\"head_h1\"><u>FJB Music</u></h1>\r\n");
       out.write("\r\n");
       out.write("</header>\r\n");
       out.write("<body bgcolor=\"yellow\">\r\n");
       out.write("<div id=\"main4\">\r\n");
       out.write("<form action=\"music_pay3.jsp\">\r\n");
-      out.write("注文を確定しました。\r\n");
+      out.write("<font size=6>注文を確定しました</font><br>\r\n");
+      out.write("<font size=6>ご購入ありがとうございました。</font>\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");
       out.write("</body>\r\n");
