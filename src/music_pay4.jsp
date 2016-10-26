@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="css/music_pay.css">
 </head>
 <header>
-	<h1 id="head_h1">FJB Music</h1>
+	<h1 id="head_h1"><u>FJB Music</u></h1>
 
 </header>
 <body bgcolor="yellow">

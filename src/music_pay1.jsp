@@ -5,11 +5,11 @@
 <link rel="stylesheet" href="css/music_pay.css">
 </head>
 <header >
-<h1 id = "head_h1">FJB Music</h1>
+<h1 id = "head_h1"><u>FJB Music</u></h1>
 <div id="navi">
 <table>
 <tr>
-			<td><img alt=""src="pic/login2.png"class="main_img">
+			<td align="center"><img alt=""src="pic/login2.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">
 			<img alt=""src="pic/nyuuryoku.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">
@@ -24,8 +24,8 @@
 <body bgcolor="yellow">
 <div id="main1">
 	<form action="music_pay2.jsp">
-	<div id ="login_title"><font color="red" size =5px>【ログインして購入】</font><br>アカウントをお持ちの方はこちら</div>
-	<table class="login">
+	<div id ="login_title"><font color="red" size =5px><center>【ログインして購入】</center></font><br><center>アカウントをお持ちの方はこちら</center></div>
+	<table class="login" height="100px">
 					<tr>
 						<th>ユーザID</th>
 						<td><input type="text" name="user_id" value="" size="24">

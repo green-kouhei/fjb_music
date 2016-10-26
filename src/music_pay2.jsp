@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="css/music_pay.css">
 </head>
 <header>
-	<h1 id="head_h1">FJB Music</h1>
+	<h1 id="head_h1"><u>FJB Music</u></h1>
 </header>
 <script type="text/javascript">
 function disp(){
@@ -20,7 +20,7 @@ function disp(){
 <div id="navi">
 <table>
 <tr>
-			<td><img alt=""src="pic/login.png"class="main_img">
+			<td align="center"><img alt=""src="pic/login.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">
 			<img alt=""src="pic/nyuuryoku2.png"class="main_img">
 			<img alt=""src="pic/yazirusi.png"class="main_yimg">

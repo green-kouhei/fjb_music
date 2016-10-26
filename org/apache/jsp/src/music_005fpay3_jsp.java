@@ -57,14 +57,14 @@ public final class music_005fpay3_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("<link rel=\"stylesheet\" href=\"css/music_pay.css\">\r\n");
       out.write("</head>\r\n");
       out.write("<header>\r\n");
-      out.write("\t<h1 id=\"head_h1\">FJB Music</h1>\r\n");
+      out.write("\t<h1 id=\"head_h1\"><u>FJB Music</u></h1>\r\n");
       out.write("\r\n");
       out.write("</header>\r\n");
       out.write("<body bgcolor=\"yellow\">\r\n");
       out.write("<div id=\"navi\">\r\n");
       out.write("<table>\r\n");
       out.write("<tr>\r\n");
-      out.write("\t\t\t<td><img alt=\"\"src=\"pic/login.png\"class=\"main_img\">\r\n");
+      out.write("\t\t\t<td align=\"center\"><img alt=\"\"src=\"pic/login.png\"class=\"main_img\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/nyuuryoku.png\"class=\"main_img\">\r\n");
       out.write("\t\t\t<img alt=\"\"src=\"pic/yazirusi.png\"class=\"main_yimg\">\r\n");
