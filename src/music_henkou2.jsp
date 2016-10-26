@@ -42,11 +42,6 @@
 			<td align="center" class="left3">住所（お届け先）</td>
 			<td class="rigth3">千葉県船橋市船橋123</td>
 		</tr>
-		<tr>
-			<td align="center" class="last3">お支払い方法</td>
-			<td class="rigth3">クレジットカード<br>
-			番号：xxxx-xxxx-xxxx-1234</td>
-
 
 	</table>
 

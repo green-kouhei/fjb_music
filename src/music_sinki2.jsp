@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/music_henkou.css">
+<link rel="stylesheet" href="css/music_sinki.css">
 </head>
 <header>
 	<h1 id="head_h1">FJB Music</h1>
@@ -46,7 +46,7 @@
 
 	</table>
 
-	<input id="kakutei" type="submit" name="kakutei"value="変更を確定しTOPへ">
+	<input id="kakutei" type="submit" name="kakutei"value="確定してTOPへ">
 	</form>
 	</div>
 </body>

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/music_henkou.css">
+<link rel="stylesheet" href="css/music_sinki.css">
 </head>
 <header>
 	<h1 id="head_h1">FJB Music</h1>
@@ -16,22 +16,8 @@ function disp(){
 
 </script>
 <body bgcolor="yellow">
-<div id="navi">
-<table>
-<tr>
-			<td><img alt=""src="pic/login.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/nyuuryoku2.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/kakunin.png"class="main_img">
-			<img alt=""src="pic/yazirusi.png"class="main_yimg">
-			<img alt=""src="pic/kanryou.png"class="main_img"></td>
-		</tr>
-		</table>
-		</div>
-
 <div id="main2">
-<form action="music_henkou2.jsp">
+<form action="music_sinki2.jsp">
 <table  class="title1">
 <tr>
 <td align="center" ><font size ="6">変更したい情報のみ入力してください</font></td>
