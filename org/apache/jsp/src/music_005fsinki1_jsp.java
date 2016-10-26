@@ -72,7 +72,7 @@ public final class music_005fsinki1_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("<form action=\"music_sinki2.jsp\">\r\n");
       out.write("<table  class=\"title1\">\r\n");
       out.write("<tr>\r\n");
-      out.write("<td align=\"center\" ><font size =\"6\">変更したい情報のみ入力してください</font></td>\r\n");
+      out.write("<td align=\"center\" ><font size =\"6\">情報を入力してください</font></td>\r\n");
       out.write("</tr>\r\n");
       out.write("</table>\r\n");
       out.write("\t<table border=\"1\" class=\"sample2\">\r\n");
@@ -127,8 +127,16 @@ public final class music_005fsinki1_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
-      out.write("\t\t\t<td align=\"center\" class=\"left2\">確認</td>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left2\">メールアドレス確認</td>\r\n");
       out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left2\">パスワード</td>\r\n");
+      out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"8\">※半角英数8桁で入力してください</td>\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left2\">パスワード確認</td>\r\n");
+      out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"8\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
       out.write("\t\t\t<td align=\"center\" class=\"left2\">郵便番号 </td>\r\n");
