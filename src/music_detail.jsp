@@ -65,12 +65,17 @@
 							</td>
 							<td width="50%">
 								<div class="syou">
-									<div id="mei">商品名</div>
+									<span id="mei">商品名</span><span id=ja>　　　JPOP</span>
 
 									<br> <br>
 
 									<div id="sin">歌手</div>
-									<br> <br> <span id="kane"> 金額 <u>\3000</u>
+									<br>
+									 <br>
+									 <span id="kane"> 金額
+									 <br>CD　　　　<u>\3000</u><input type ="radio" name="sen" value="CD">
+									 <br>
+									 デジタル　<u>\2500</u><input type ="radio" name="sen" value="Digital">
 
 									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br>
 									<br>
@@ -137,7 +142,19 @@
 					</td>
 		</tbody>
 	</table>
-
+レビュー
+	<table border="0" width="100%" style="table-layout: auto;"bgcolor="#FFAACC">
+		<tr style="border-style: none;" border="0" width="100%">
+		<td with="100%">
+		<u>じぃ</u>
+		</td>
+		</tr>
+		<tr style="border-style: none;" border="0" width="100%">
+		<td with="100%">
+		よさみ
+		</td>
+		</tr>
+</table>
 	<footer>
 	<br> <br> <br>
 		<div id="foot">Copyright FJB Music , all rights reserved.</div>
