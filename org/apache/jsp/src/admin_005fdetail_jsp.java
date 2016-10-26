@@ -92,13 +92,13 @@ public final class admin_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t\t\t\t\t<td width=\"50%\">\r\n");
       out.write("\t\t\t\t\t\t\t\t<!-- \t\t\t\t\t\t視聴場所 -->\r\n");
       out.write("\t\t\t\t\t\t\t\t<div id=\"na\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/kanryou.png\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/kanryou.png\">\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/button01.png\">\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/button02.png\">\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t\t\t\t\t<div id=\"na\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/kanryou.png\">\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/kanryou.png\">\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/button03.png\">\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<img alt=\"\" src=\"pic/button04.png\">\r\n");
       out.write("\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t\t\t\t</td>\r\n");

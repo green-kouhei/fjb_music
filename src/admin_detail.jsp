@@ -40,13 +40,13 @@
 							<td width="50%">
 								<!-- 						視聴場所 -->
 								<div id="na">
-									<img alt="" src="pic/kanryou.png">
-									<img alt="" src="pic/kanryou.png">
+									<img alt="" src="pic/button01.png">
+									<img alt="" src="pic/button02.png">
 
 								</div>
 								<div id="na">
-									<img alt="" src="pic/kanryou.png">
-									<img alt="" src="pic/kanryou.png">
+									<img alt="" src="pic/button03.png">
+									<img alt="" src="pic/button04.png">
 
 
 							</td>
