@@ -35,6 +35,10 @@
 			<td align="center" class="left3">メールアドレス</td>
 			<td class="rigth3">x15g000@chiba-fjb.ac.jp</td>
 		</tr>
+		<tr>
+			<td align="center" class="left3">パスワード</td>
+			<td class="rigth3">○○○○○○○○</td>
+		</tr>
 			<td align="center" class="left3">郵便番号 </td>
 			<td class="rigth3">12345678</td>
 		</tr>
@@ -44,7 +48,7 @@
 		</tr>
 
 	</table>
-
+	<input id="modoru" type="submit" name="modoru"value="戻る">
 	<input id="kakutei" type="submit" name="kakutei"value="変更を確定しTOPへ">
 	</form>
 	</div>

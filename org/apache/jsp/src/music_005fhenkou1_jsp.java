@@ -72,7 +72,7 @@ public final class music_005fhenkou1_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("<form action=\"music_henkou2.jsp\">\r\n");
       out.write("<table  class=\"title1\">\r\n");
       out.write("<tr>\r\n");
-      out.write("<td align=\"center\" ><font size =\"6\">変更したい情報のみ入力してください</font></td>\r\n");
+      out.write("<td align=\"center\" ><font color=\"red\" size =\"5\">変更したい情報のみ入力してください</font></td>\r\n");
       out.write("</tr>\r\n");
       out.write("</table>\r\n");
       out.write("\t<table border=\"1\" class=\"sample2\">\r\n");
@@ -80,6 +80,14 @@ public final class music_005fhenkou1_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t\t<tr>\r\n");
       out.write("\t\t\t<td align=\"center\" class=\"left2\">メールアドレス</td>\r\n");
       out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"アドレス\" size=\"40\"></td>\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left2\">パスワード</td>\r\n");
+      out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"パスワード\" size=\"8\"></td>\r\n");
+      out.write("\t\t</tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left2\">パスワード確認</td>\r\n");
+      out.write("\t\t\t<td class=\"rigth2\"><input type=\"text\" name=\"パスワード\" size=\"8\"></td>\r\n");
       out.write("\t\t</tr>\r\n");
       out.write("\t\t<tr>\r\n");
       out.write("\t\t\t<td align=\"center\" class=\"left2\">確認</td>\r\n");
@@ -165,6 +173,7 @@ public final class music_005fhenkou1_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t\t</tr>\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
+      out.write("\t<input id=\"modoru\" type=\"submit\" value=\"戻る\">\r\n");
       out.write("\t<input id=\"kakunin\" type=\"submit\" value=\"確認\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");

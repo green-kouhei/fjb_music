@@ -37,7 +37,7 @@
 		</tr>
 		<tr>
 			<td align="center" class="left3">パスワード</td>
-			<td class="rigth3">●●●●●●●●</td>
+			<td class="rigth3">○○○○○○○○</td>
 		</tr>
 			<td align="center" class="left3">郵便番号 </td>
 			<td class="rigth3">12345678</td>
@@ -50,6 +50,7 @@
 
 	</table>
 
+	<input id="modoru" type="submit" name="modoru"value="戻る">
 	<input id="kakutei" type="submit" name="kakutei"value="確定してTOPへ">
 	</form>
 	</div>

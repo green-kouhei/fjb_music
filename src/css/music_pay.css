@@ -109,8 +109,16 @@ td.left2 {
 	width : 120px;
 	height : 100px;
 	}
+	#modoru{
+	margin-left : 180px;
+	margin-top : 30px;
+	width: 50px;
+	height: 40px;
+	background-color: 	#ffffff;
+/* 	border: solid 1px red; */
+	}
 	#kakunin{
-	margin-left : 220px;
+	margin-left : 20px;
 	margin-top : 30px;
 	width: 250px;
 	height: 40px;
@@ -144,10 +152,18 @@ td.left3 {
 	width : 120px;
 	height : 100px;
 	}
-#kakutei{
-	margin-left : 220px;
+	#modoru2{
+	margin-left : 144px;
 	margin-top : 30px;
-	width: 250px;
+	width: 50px;
+	height: 40px;
+	background-color: 	#ffffff;
+/* 	border: solid 1px red; */
+	}
+#kakutei{
+	margin-left : 20px;
+	margin-top : 30px;
+	width: 233px;
 	height: 40px;
 	background-color: 	#66cdaa;
 /* 	border: solid 1px red; */
@@ -173,8 +189,8 @@ table.title2{
 	margin-right: auto;
 }
 table.kakutei{
-	width: 300px;
-	margin-left: auto;
+	width: 230px;
+	margin-left: 220px;
 	margin-right: auto;
 }
 #nyuuryoku{

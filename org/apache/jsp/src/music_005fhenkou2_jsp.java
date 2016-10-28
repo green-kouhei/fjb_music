@@ -87,6 +87,10 @@ public final class music_005fhenkou2_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t\t\t<td align=\"center\" class=\"left3\">メールアドレス</td>\r\n");
       out.write("\t\t\t<td class=\"rigth3\">x15g000@chiba-fjb.ac.jp</td>\r\n");
       out.write("\t\t</tr>\r\n");
+      out.write("\t\t<tr>\r\n");
+      out.write("\t\t\t<td align=\"center\" class=\"left3\">パスワード</td>\r\n");
+      out.write("\t\t\t<td class=\"rigth3\">○○○○○○○○</td>\r\n");
+      out.write("\t\t</tr>\r\n");
       out.write("\t\t\t<td align=\"center\" class=\"left3\">郵便番号 </td>\r\n");
       out.write("\t\t\t<td class=\"rigth3\">12345678</td>\r\n");
       out.write("\t\t</tr>\r\n");
@@ -96,7 +100,7 @@ public final class music_005fhenkou2_jsp extends org.apache.jasper.runtime.HttpJ
       out.write("\t\t</tr>\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
-      out.write("\r\n");
+      out.write("\t<input id=\"modoru\" type=\"submit\" name=\"modoru\"value=\"戻る\">\r\n");
       out.write("\t<input id=\"kakutei\" type=\"submit\" name=\"kakutei\"value=\"変更を確定しTOPへ\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");

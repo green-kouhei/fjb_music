@@ -226,6 +226,7 @@ public final class music_005fpay2_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\r\n");
       out.write("\r\n");
       out.write("\t</table>\r\n");
+      out.write("\t<input id=\"modoru\" type=\"submit\" value=\"戻る\">\r\n");
       out.write("\t<input id=\"kakunin\" type=\"submit\" value=\"確認\">\r\n");
       out.write("\t</form>\r\n");
       out.write("\t</div>\r\n");

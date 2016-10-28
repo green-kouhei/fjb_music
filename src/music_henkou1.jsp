@@ -20,7 +20,7 @@ function disp(){
 <form action="music_henkou2.jsp">
 <table  class="title1">
 <tr>
-<td align="center" ><font size ="6">変更したい情報のみ入力してください</font></td>
+<td align="center" ><font color="red" size ="5">変更したい情報のみ入力してください</font></td>
 </tr>
 </table>
 	<table border="1" class="sample2">
@@ -28,6 +28,14 @@ function disp(){
 		<tr>
 			<td align="center" class="left2">メールアドレス</td>
 			<td class="rigth2"><input type="text" name="アドレス" size="40"></td>
+		</tr>
+		<tr>
+			<td align="center" class="left2">パスワード</td>
+			<td class="rigth2"><input type="text" name="パスワード" size="8"></td>
+		</tr>
+		<tr>
+			<td align="center" class="left2">パスワード確認</td>
+			<td class="rigth2"><input type="text" name="パスワード" size="8"></td>
 		</tr>
 		<tr>
 			<td align="center" class="left2">確認</td>
@@ -107,6 +115,7 @@ function disp(){
 		</tr>
 
 	</table>
+	<input id="modoru" type="submit" value="戻る">
 	<input id="kakunin" type="submit" value="確認">
 	</form>
 	</div>

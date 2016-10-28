@@ -156,6 +156,7 @@ function disp(){
 
 
 	</table>
+	<input id="modoru" type="submit" value="戻る">
 	<input id="kakunin" type="submit" value="確認">
 	</form>
 	</div>

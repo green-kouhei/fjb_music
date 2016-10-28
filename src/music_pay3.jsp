@@ -109,6 +109,7 @@
 	<td align="center">お支払い合計</td><td align="right">\756</td>
 	</tr>
 	</table>
+	<input id="modoru2" type="submit" name="modoru"value="戻る">
 	<input id="kakutei" type="submit" name="kakutei"value="注文を確定">
 	</div>
 	</form>
