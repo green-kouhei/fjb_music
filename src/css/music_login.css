@@ -5,4 +5,23 @@ body {
 }
 #head_h1{
 	width : 150px;
-	border: solid 1px blue;
+/* 	border: solid 1px blue; */
+	margin-left: 3px;
+	margin-top: 32px;
+}
+table.login{
+	margin-top: 100px;
+	width : 400px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : auto;
+	border-color: red;
+}
+#main1{
+	background-color : #ffffff;
+	width : 700px;
+	height : 150px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : auto;
+}

@@ -48,44 +48,44 @@
 
 						<tr align="center">
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\3000</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\2000</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\3050</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\1200</u></td>
 						</tr>
 						<tr align="center">
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\3500</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\1000</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\2600</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\2200</u></td>
 						</tr>
 						<tr align="center">
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\1800</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\1700</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\2600</u></td>
 							<td width="25%"><img alt="" src="pic/cd.jpg" id="cd_img"
-								width="100px;" height="100px;"> <br> 商品名<br> 金額
+								width="100px;" height="100px;"> <br> 商品名/アーティスト<br> 金額
 								<u>\9000</u></td>
 						</tr>
 

@@ -73,9 +73,9 @@
 									<br>
 									 <br>
 									 <span id="kane"> 金額
-									 <br>CD　　　　<u>\3000</u><input type ="radio" name="sen" value="CD">
+									 <br><input type ="radio" name="sen" value="CD">CD　　　　<u>\3000</u>
 									 <br>
-									 デジタル　<u>\2500</u><input type ="radio" name="sen" value="Digital">
+									 <input type ="radio" name="sen" value="Digital">デジタル　<u>\2500</u>
 
 									</span> <img alt="" src="pic/cart.png" id="cart_img"><br> <br>
 									<br>
