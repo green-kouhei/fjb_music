@@ -1,6 +1,7 @@
 <web-app>
 
     <servlet>
+<<<<<<< HEAD
         <servlet-name>PayServlet</servlet-name>
         <servlet-class>PayServlet</servlet-class>
     </servlet>
@@ -8,6 +9,15 @@
     <servlet-mapping>
         <servlet-name>PayServlet</servlet-name>
         <url-pattern>/PayServlet</url-pattern>
+=======
+        <servlet-name>music_detail</servlet-name>
+        <servlet-class>music_detail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>music_detail</servlet-name>
+        <url-pattern>/music_detail</url-pattern>
+>>>>>>> 8b8fa8c66d1ce2c1e741cfdf5fccd78bbc9b2b81
     </servlet-mapping>
 
 
