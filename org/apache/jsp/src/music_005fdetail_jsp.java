@@ -127,9 +127,9 @@ public final class music_005fdetail_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("\t\t\t\t\t\t\t\t\t<br>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t <br>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t <span id=\"kane\"> 金額\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t <br><input type =\"radio\" name=\"sen\" value=\"CD\">CD　　　　<u>\\3000</u>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t <br><input type =\"checkbox\" name=\"buy\" value=\"CD\">CD　　　　<u>\\3000</u>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t <br>\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t <input type =\"radio\" name=\"sen\" value=\"Digital\">デジタル　<u>\\2500</u>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t <input type =\"checkbox\" name=\"buy\" value=\"Digital\">デジタル　<u>\\2600</u>\r\n");
       out.write("\r\n");
       out.write("\t\t\t\t\t\t\t\t\t</span> <img alt=\"\" src=\"pic/cart.png\" id=\"cart_img\"><br> <br>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<br>\r\n");

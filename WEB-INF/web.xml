@@ -1,0 +1,14 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>music_detail</servlet-name>
+        <servlet-class>music_detail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>music_detail</servlet-name>
+        <url-pattern>/music_detail</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
