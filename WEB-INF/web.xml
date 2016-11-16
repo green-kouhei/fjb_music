@@ -1,0 +1,14 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>PayServlet</servlet-name>
+        <servlet-class>PayServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PayServlet</servlet-name>
+        <url-pattern>/PayServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
