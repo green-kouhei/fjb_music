@@ -41,11 +41,10 @@
 
 	<table class="login2">
 	<tr>
-	<td><input type="submit" id="gust"name="gust"value="ゲストで購入">
-	<td><input type="submit" id="sinki"name="sinki"value="新規会員登録">
+	<td><input type="submit" id="gust"name="gust"value="ゲストで購入"a href="PayServlet">
+	<td><input type="submit" id="sinki"name="sinki"value="新規会員登録"a href="PayServlet">
 	</tr>
 	</table>
-
 	</div>
 	</form>
 </body>
