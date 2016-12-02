@@ -2,7 +2,7 @@
 
     <servlet>
         <servlet-name>music_detail</servlet-name>
-        <servlet-class>music_detail</servlet-class>
+        <servlet-class>fjb_music.music_detail</servlet-class>
     </servlet>
 
     <servlet-mapping>
