@@ -1,24 +1,23 @@
 <web-app>
 
-    <servlet>
-<<<<<<< HEAD
-        <servlet-name>PayServlet</servlet-name>
-        <servlet-class>PayServlet</servlet-class>
-    </servlet>
+<servlet>
+    <servlet-name>fjb_music</servlet-name>
+    <servlet-class>fjb_music</servlet-class>
+  </servlet>
 
-    <servlet-mapping>
-        <servlet-name>PayServlet</servlet-name>
-        <url-pattern>/PayServlet</url-pattern>
-=======
-        <servlet-name>music_detail</servlet-name>
-        <servlet-class>music_detail</servlet-class>
-    </servlet>
+  <servlet-mapping>
+    <servlet-name>fjb_music</servlet-name>
+    <url-pattern>/fjb_music</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PayServlet1</servlet-name>
+    <servlet-class>PayServlet1</servlet-class>
+  </servlet>
 
-    <servlet-mapping>
-        <servlet-name>music_detail</servlet-name>
-        <url-pattern>/music_detail</url-pattern>
->>>>>>> 8b8fa8c66d1ce2c1e741cfdf5fccd78bbc9b2b81
-    </servlet-mapping>
-
+  <servlet-mapping>
+    <servlet-name>PayServlet1</servlet-name>
+    <url-pattern>/PayServlet1</url-pattern>
+  </servlet-mapping>
 
 </web-app>
